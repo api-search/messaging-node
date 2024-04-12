@@ -1,1 +1,2 @@
-# messaging
+## Payments
+A Payments APIs index.
