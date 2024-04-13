@@ -1,3 +1,4 @@
+---
 name: Slack
 description: >-
   Slack is a cloud-based freemium cross-platform instant messaging service
@@ -65,3 +66,4 @@ overlays:
   - type: API Evangelist Ratings
     url: overlays/apis-io-search.yml
 aid: slack
+---
