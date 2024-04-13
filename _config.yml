@@ -1,7 +1,14 @@
-title: APIs.io - Messaging
-url: http://127.0.0.1:4000
+name: APIs.io - Messaging
+description: The APIs that make messaging possible, as well as a number of other related capabilities.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+
+url: https://messaging.apis.io
 
 node: messaging
+
+keywords:
+
+- Messaging
 
 permalink: /:categories/:year/:month/:day/:title/
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
