@@ -29,7 +29,29 @@ apis:
       Intelligent virtual assistants (IVA) are incredibly sophisticated
       applications with the potential to revolutionize the way modern businesses
       service customers.
-    tags: []
+    tags:
+      - Actions
+      - Assistants
+      - Assistants
+      - Builds
+      - Dialogues
+      - Fallback
+      - Fields
+      - Fields
+      - Initiation
+      - Models
+      - Queries
+      - Retrieve
+      - Samples
+      - Sheet
+      - Statistics
+      - Styles
+      - Tasks
+      - Tasks
+      - Types
+      - Types
+      - Understand
+      - Values
     overlays:
       - type: APIs.io Search
         url: overlays/assistant-openapi-search.yml
