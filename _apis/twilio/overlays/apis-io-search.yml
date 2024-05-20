@@ -23,40 +23,39 @@ apis:
         url: overlays/accounts-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/accounts-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/iam/api/account
   - aid: twilio:twilio-assistant-api
     name: Twilio Assistant API
     description: >-
-      Intelligent virtual assistants (IVA) are incredibly sophisticated
-      applications with the potential to revolutionize the way modern businesses
-      service customers.
+      Twilio AI Assistants are an opinionated framework to build and host
+      conversational AI Assistants for your customer-facing use cases.
     tags:
       - Actions
       - Assistants
-      - Assistants
+      - Build
       - Builds
       - Dialogues
       - Fallback
       - Fields
-      - Fields
       - Initiation
       - Models
       - Queries
-      - Retrieve
       - Samples
       - Sheet
+      - Sheets
       - Statistics
       - Styles
       - Tasks
-      - Tasks
-      - Types
       - Types
       - Understand
+      - Value
       - Values
     overlays:
       - type: APIs.io Search
         url: overlays/assistant-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/assistant-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/blog/what-is-intelligent-virtual-assistant
   - aid: twilio:twilio-autopilot-api
     name: Twilio Autopilot API
     description: Needs description.
@@ -66,33 +65,65 @@ apis:
         url: overlays/autopilot-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/autopilot-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/
   - aid: twilio:twilio-bulk-exports-api
     name: Twilio Bulk Exports API
-    description: Needs description.
-    tags: []
+    description: >-
+      The BulkExport API allows users to easily retrieve all activity logs from
+      the Twilio platform in a streamlined manner. Users can choose to download
+      logs either on a recurring basis or as a one-time download. With
+      BulkExport, users can access daily dumps of Messages, Calls, Conferences,
+      or conference Participants from the previous day without having to
+      paginate through the list resource. These files are automatically deleted
+      after seven days. Additionally, users can generate historical daily dumps
+      for a specified range of dates using BulkExport.
+    tags:
+      - Configurations
+      - Days
+      - Exports
+      - Fetch
+      - Jobs
+      - Resources
+      - Types
     overlays:
       - type: APIs.io Search
         url: overlays/bulk-exports-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/bulk-exports-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/usage/bulkexport
   - aid: twilio:twilio-content-api
     name: Twilio Content API
-    description: Needs description.
-    tags: []
+    description: >-
+      The Content API allows programmatic creation and management of Content
+      Templates. The Content Template Builder also has a Console UI product with
+      an easy-to-use graphical user interface built on top of the Content API.
+      With the UI, engineers and non-technical users can create, approve, and
+      manage templates from the Twilio Console.
+    tags:
+      - Approvals
+      - Content
+      - Legacy
+      - Status
     overlays:
       - type: APIs.io Search
         url: overlays/content-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/content-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/content
   - aid: twilio:twilio-conversations-api
     name: Twilio Conversations API
-    description: Needs description.
+    description: >-
+      Twilio Conversations is an omni-channel messaging platform that allows you
+      to build engaging conversational messaging experiences across many
+      channels. Find the documentation, sample code, and developer tools you
+      need to build exactly what you want.
     tags: []
     overlays:
       - type: APIs.io Search
         url: overlays/conversations-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/conversations-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/conversations
   - aid: twilio:twilio-events-api
     name: Twilio Events API
     description: Needs description.
