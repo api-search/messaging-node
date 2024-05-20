@@ -109,723 +109,317 @@ paths:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
         - Fields
+        - Tasks
+        - Understand
+      summary: Create Assistant Task Fields
   /understand/Assistants/{AssistantSid}/FieldTypes/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
         - Fields
-        - Field
         - Types
+        - Understand
+      summary: Retrieve Assistant Field Types
     post:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
         - Fields
-        - Field
         - Types
+        - Understand
+      summary: Create Assistant Field Type
     delete:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
         - Fields
-        - Field
         - Types
+        - Understand
+      summary: Delete Assistant Field Type
   /understand/Assistants/{AssistantSid}/FieldTypes:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
         - Fields
-        - Field
         - Types
+        - Understand
+      summary: Retrieve Assistant Field Types
     post:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
         - Fields
-        - Field
         - Types
+        - Understand
+      summary: Create Assistant Field Types
   /understand/Assistants/{AssistantSid}/FieldTypes/{FieldTypeSid}/FieldValues/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
         - Fields
-        - Field
         - Types
-        - Type
+        - Understand
+        - Value
         - Values
+      summary: Retrieve Assistant Field Type Field Value
     delete:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
         - Fields
-        - Field
         - Types
-        - Type
+        - Understand
+        - Value
         - Values
+      summary: Delete Assistant Field Type Field Value
   /understand/Assistants/{AssistantSid}/FieldTypes/{FieldTypeSid}/FieldValues:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
         - Fields
-        - Field
         - Types
-        - Type
+        - Understand
         - Values
+      summary: Retrieve Assistant Field Type Field Values
     post:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
         - Fields
-        - Field
         - Types
-        - Type
+        - Understand
         - Values
+      summary: Create Assistant Field Type Field Values
   /understand/Assistants/{AssistantSid}/ModelBuilds/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
+        - Build
         - Builds
+        - Models
+        - Understand
+      summary: Retrieve Assistant Model Build
     post:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
+        - Build
         - Builds
+        - Models
+        - Understand
+      summary: Update Assistant Model Build
     delete:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
+        - Build
         - Builds
+        - Models
+        - Understand
+      summary: Delete Assistant Model Build
   /understand/Assistants/{AssistantSid}/ModelBuilds:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
         - Builds
+        - Models
+        - Understand
+      summary: Retrieve Assistant Model Builds
     post:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
+        - Build
         - Builds
+        - Models
+        - Understand
+      summary: Create Assistant Model Build
   /understand/Assistants/{AssistantSid}/Queries/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
-        - Builds
         - Queries
+        - Understand
+      summary: Retrieve Assistant Query
     post:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
-        - Builds
         - Queries
+        - Understand
+      summary: Create Assistant Query
     delete:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
-        - Builds
         - Queries
+        - Understand
+      summary: Delete Assistant Query
   /understand/Assistants/{AssistantSid}/Queries:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
-        - Builds
         - Queries
+        - Understand
+      summary: Retrieve Assistant Queries
     post:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
-        - Builds
         - Queries
+        - Understand
+      summary: Create Assistant Query
   /understand/Assistants/{AssistantSid}/Tasks/{TaskSid}/Samples/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
-        - Builds
-        - Queries
         - Samples
+        - Tasks
+        - Understand
+      summary: Retrieve Assistant Task Sample
     post:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
-        - Builds
-        - Queries
         - Samples
+        - Tasks
+        - Understand
+      summary: Update Assistant Task Sample
     delete:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
-        - Builds
-        - Queries
         - Samples
+        - Tasks
+        - Understand
+      summary: Delete Assistant Task Sample
   /understand/Assistants/{AssistantSid}/Tasks/{TaskSid}/Samples:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
-        - Builds
-        - Queries
         - Samples
+        - Tasks
+        - Understand
+      summary: Retrieve Assistant Task Samples
     post:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
-        - Builds
-        - Queries
         - Samples
+        - Tasks
+        - Understand
+      summary: Create Assistant Task Sample
   /understand/Assistants/{AssistantSid}/StyleSheet:
     description: 'TODO: Resource-level docs'
     get:
       description: Returns Style sheet JSON object for this Assistant
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
-        - Builds
-        - Queries
-        - Samples
-        - Style
         - Sheet
+        - Sheets
+        - Styles
+        - Understand
+      summary: Retrieve Assistant Style Sheets
     post:
       description: >-
         Updates the style sheet for an assistant identified by {AssistantSid} or
         {AssistantUniqueName}.
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
-        - Builds
-        - Queries
-        - Samples
-        - Style
         - Sheet
+        - Styles
+        - Understand
+      summary: Create Assistant Style Sheet
   /understand/Assistants/{AssistantSid}/Tasks/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
         - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
-        - Builds
-        - Queries
-        - Samples
-        - Style
-        - Sheet
+        - Understand
+      summary: Retrieve Assistant Task
     post:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
         - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
-        - Builds
-        - Queries
-        - Samples
-        - Style
-        - Sheet
+        - Understand
+      summary: Update Assistant Task
     delete:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
         - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
-        - Builds
-        - Queries
-        - Samples
-        - Style
-        - Sheet
+        - Understand
+      summary: Delete Assistant Task
   /understand/Assistants/{AssistantSid}/Tasks:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
         - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
-        - Builds
-        - Queries
-        - Samples
-        - Style
-        - Sheet
+        - Understand
+      summary: Retrieve Assistant Tasks
     post:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
         - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
-        - Builds
-        - Queries
-        - Samples
-        - Style
-        - Sheet
+        - Understand
+      summary: Create Assistant Task
   /understand/Assistants/{AssistantSid}/Tasks/{TaskSid}/Actions:
     description: 'TODO: Resource-level docs'
     get:
       description: Returns JSON actions for this Task.
       tags:
-        - Assistants
-        - Sid
-        - Assistant
-        - Fallback
         - Actions
-        - Initiation
-        - Dialogues
+        - Assistants
         - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
-        - Builds
-        - Queries
-        - Samples
-        - Style
-        - Sheet
+        - Understand
+      summary: Retrieve Assistant Task Actions
     post:
       description: >-
         Updates the actions of an Task identified by {TaskSid} or
         {TaskUniqueName}.
       tags:
-        - Assistants
-        - Sid
-        - Assistant
-        - Fallback
         - Actions
-        - Initiation
-        - Dialogues
+        - Assistants
         - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
-        - Builds
-        - Queries
-        - Samples
-        - Style
-        - Sheet
+        - Understand
+      summary: Create Assistant Task Action
   /understand/Assistants/{AssistantSid}/Tasks/{TaskSid}/Statistics:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
-        - Fields
-        - Field
-        - Types
-        - Type
-        - Values
-        - Model
-        - Builds
-        - Queries
-        - Samples
-        - Style
-        - Sheet
         - Statistics
+        - Tasks
+        - Understand
+      summary: Retrieve Assistant Task Statistics
 tags:
   - name: PreviewDeployedDevicesCertificate
   - name: PreviewDeployedDevicesDeployment
