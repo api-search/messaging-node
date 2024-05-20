@@ -26,55 +26,55 @@ paths:
         token, all requests to Twilio using your old primary Auth Token will
         result in an error.
       tags:
-        - Auth
-        - Tokens
+        - Authentication
         - Promote
+        - Tokens
+      summary: Promote Authentication Tokens
   /v1/Credentials:
     description: 'TODO: Resource-level docs'
   /v1/Credentials/AWS:
     description: User provided AWS keys
     get:
       description: >-
-        Retrieves a collection of AWS Credentials belonging to the account used
-        to make the request
+        This API retrieves a collection of AWS Credentials associated with the
+        account that made the request.
       tags:
-        - Auth
-        - Tokens
-        - Promote
+        - Authentication
         - Credentials
+        - Promote
+        - Tokens
+      summary: Retrieve Collection of AWS Credentials
     post:
-      description: Create a new AWS Credential
+      description: Generate new AWS credentials for accessing this API.
       tags:
-        - Auth
-        - Tokens
-        - Promote
+        - Authentication
         - Credentials
+        - Promote
+        - Tokens
+      summary: Create AWS Credential
   /v1/Credentials/AWS/{Sid}:
     description: User provided AWS keys
     get:
       description: Fetch the AWS credentials specified by the provided Credential Sid
       tags:
-        - Auth
-        - Tokens
-        - Promote
+        - AWS
         - Credentials
-        - Sid
+        - Retrieve
+      summary: 'Retrieve AWS Credentials '
     post:
       description: Modify the properties of a given Account
       tags:
-        - Auth
-        - Tokens
-        - Promote
+        - AWS
+        - Accounts
         - Credentials
-        - Sid
+        - Modify
+      summary: Modify AWS Account
     delete:
       description: Delete a Credential from your account
       tags:
-        - Auth
-        - Tokens
-        - Promote
+        - AWS
         - Credentials
-        - Sid
+      summary: Delete AWS Credential
   /v1/Credentials/PublicKeys:
     description: User provided public keys
     get:
@@ -82,123 +82,83 @@ paths:
         Retrieves a collection of Public Key Credentials belonging to the
         account used to make the request
       tags:
-        - Auth
-        - Tokens
-        - Promote
         - Credentials
-        - Sid
-        - Public
         - Keys
+        - Public
+        - Retrieve
+      summary: Retrieve Public Key Credentials
     post:
-      description: Create a new Public Key Credential
+      description: Generate a fresh Public Key Credential by utilizing this API.
       tags:
-        - Auth
-        - Tokens
-        - Promote
         - Credentials
-        - Sid
-        - Public
         - Keys
+        - Public
+      summary: Create Public Key Credential
   /v1/Credentials/PublicKeys/{Sid}:
     description: User provided public keys
     get:
       description: Fetch the public key specified by the provided Credential Sid
       tags:
-        - Auth
-        - Tokens
-        - Promote
         - Credentials
-        - Sid
-        - Public
         - Keys
+        - Public
+        - Retrieve
+      summary: Retrieve Public Key Credentials
     post:
       description: Modify the properties of a given Account
       tags:
-        - Auth
-        - Tokens
-        - Promote
         - Credentials
-        - Sid
-        - Public
         - Keys
+        - Modify
+        - Public
+      summary: Modify Public Key Credential
     delete:
       description: Delete a Credential from your account
       tags:
-        - Auth
-        - Tokens
-        - Promote
         - Credentials
-        - Sid
-        - Public
         - Keys
+        - Public
+      summary: Delete Public Key Credential
   /v1/SafeList/Numbers:
     description: 'TODO: Resource-level docs'
     post:
       description: Add a new phone number to SafeList.
       tags:
-        - Auth
-        - Tokens
-        - Promote
-        - Credentials
-        - Sid
-        - Public
-        - Keys
-        - Safe
-        - List
+        - Lists
         - Numbers
+        - Phone
+        - Safe
+      summary: Add Safe List Phone Number
     get:
       description: Check if a phone number exists in SafeList.
       tags:
-        - Auth
-        - Tokens
-        - Promote
-        - Credentials
-        - Sid
-        - Public
-        - Keys
-        - Safe
-        - List
+        - Checks
         - Numbers
+        - Phone
+        - Safe
+      summary: Check If Phone Number  on Safe List
     delete:
       description: Remove a phone number from SafeList.
       tags:
-        - Auth
-        - Tokens
-        - Promote
-        - Credentials
-        - Sid
-        - Public
-        - Keys
-        - Safe
-        - List
+        - From
         - Numbers
+        - Phone
+        - Removes
+        - Safe
+      summary: Remove Phone Number from Safe List
   /v1/AuthTokens/Secondary:
     description: Secondary Auth Token
     post:
       description: Create a new secondary Auth Token
       tags:
-        - Auth
-        - Tokens
-        - Promote
-        - Credentials
-        - Sid
-        - Public
-        - Keys
-        - Safe
-        - List
-        - Numbers
+        - Authentication
         - Secondary
+        - Tokens
+      summary: Create Secondary Authentication Token
     delete:
       description: Delete the secondary Auth Token from your account
       tags:
-        - Auth
+        - Authentication
+        - Secondary
         - Tokens
-        - Promote
-        - Credentials
-        - Sid
-        - Public
-        - Keys
-        - Safe
-        - List
-        - Numbers
-        - Seconda
+      summary: Delete Secondary Authentication Token
