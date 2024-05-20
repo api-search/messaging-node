@@ -11,110 +11,100 @@ paths:
       description: ''
       tags:
         - Assistants
-        - Sid
+        - Retrieve
+        - Understand
+      summary: Retrieve Assistant
     post:
       description: ''
       tags:
         - Assistants
-        - Sid
+        - Understand
+      summary: Create Assistant
     delete:
       description: ''
       tags:
         - Assistants
-        - Sid
+        - Assistants
+        - Understand
+      summary: Delete Assistant
   /understand/Assistants/{AssistantSid}/FallbackActions:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Assistants
-        - Sid
-        - Assistant
-        - Fallback
         - Actions
+        - Assistants
+        - Fallback
+        - Retrieve
+        - Understand
+      summary: Retrieve Assistant Fallback Actions
     post:
       description: ''
       tags:
-        - Assistants
-        - Sid
-        - Assistant
-        - Fallback
         - Actions
+        - Assistants
+        - Fallback
+        - Understand
+      summary: Create Assistant Fallback Actions
   /understand/Assistants/{AssistantSid}/InitiationActions:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Assistants
-        - Sid
-        - Assistant
-        - Fallback
         - Actions
+        - Assistants
         - Initiation
+        - Retrieve
+        - Understand
+      summary: Retrieve Assistant Initiation Actions
     post:
       description: ''
       tags:
-        - Assistants
-        - Sid
-        - Assistant
-        - Fallback
         - Actions
+        - Assistants
         - Initiation
+        - Understand
+      summary: Create Assistant Initiation Actions
   /understand/Assistants/{AssistantSid}/Dialogues/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
         - Dialogues
+        - Retrieve
+        - Understand
+      summary: Retrieve Assistant Dialogues
   /understand/Assistants/{AssistantSid}/Tasks/{TaskSid}/Fields/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
         - Fields
+        - Retrieve
+        - Tasks
+        - Understand
+      summary: Retrieve Assistant Task Fields
     delete:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
         - Fields
+        - Tasks
+        - Understand
+      summary: Delete Assistant Task Fields
   /understand/Assistants/{AssistantSid}/Tasks/{TaskSid}/Fields:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
         - Assistants
-        - Sid
-        - Assistant
-        - Fallback
-        - Actions
-        - Initiation
-        - Dialogues
-        - Tasks
-        - Task
         - Fields
+        - Retrieve
+        - Tasks
+        - Understand
+      summary: Retrieve Assistant Task Fields
     post:
       description: ''
       tags:
