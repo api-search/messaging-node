@@ -12,26 +12,22 @@ paths:
     get:
       description: Fetch a Content resource's approval status by its unique Content Sid
       tags:
+        - Approvals
         - Content
-        - Sid
-        - Approval
-        - Requests
+        - Status
+      summary: Retrieve Content Approval Status
   /v1/Content/{Sid}:
     description: A Content resource represents rich messaging content.
     get:
       description: Fetch a Content resource by its unique Content Sid
       tags:
         - Content
-        - Sid
-        - Approval
-        - Requests
+      summary: Retrieve Content
     delete:
       description: Deletes a Content resource
       tags:
         - Content
-        - Sid
-        - Approval
-        - Requests
+      summary: Delete Content
   /v1/Content:
     description: A Content resource represents rich messaging content.
     get:
@@ -40,9 +36,7 @@ paths:
         request
       tags:
         - Content
-        - Sid
-        - Approval
-        - Requests
+      summary: Retrieve Contents
   /v1/ContentAndApprovals:
     description: >-
       A Content resource represents rich messaging content and its respective
@@ -52,12 +46,10 @@ paths:
         Retrieve a list of Contents with approval statuses belonging to the
         account used to make the request
       tags:
-        - Content
-        - Sid
-        - Approval
-        - Requests
-        - And
         - Approvals
+        - Content
+        - Status
+      summary: Retrieve Content with Approval Status
   /v1/LegacyContent:
     description: A Legacy Content resource represents legacy rich messaging content.
     get:
@@ -66,12 +58,8 @@ paths:
         the request
       tags:
         - Content
-        - Sid
-        - Approval
-        - Requests
-        - And
-        - Approvals
         - Legacy
+      summary: Retrieve Legacy Content
 tags:
   - name: ContentV1ApprovalFetch
   - name: ContentV1Content
