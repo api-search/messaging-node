@@ -117,7 +117,21 @@ apis:
       to build engaging conversational messaging experiences across many
       channels. Find the documentation, sample code, and developer tools you
       need to build exactly what you want.
-    tags: []
+    tags:
+      - Addresses
+      - Bindings
+      - Chat
+      - Configurations
+      - Conversations
+      - Credentials
+      - Messages
+      - Notifications
+      - Participants
+      - Receipts
+      - Roles
+      - Services
+      - Users
+      - Webhooks
     overlays:
       - type: APIs.io Search
         url: overlays/conversations-openapi-search.yml
