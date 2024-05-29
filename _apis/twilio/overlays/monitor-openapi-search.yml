@@ -11,30 +11,28 @@ paths:
       description: ''
       tags:
         - Alerts
-        - Sid
+      summary: Retrieve Alerts Sid
   /v1/Alerts:
     description: Debugger alerts
     get:
       description: ''
       tags:
         - Alerts
-        - Sid
+      summary: Retrieve Alerts
   /v1/Events/{Sid}:
     description: Debugger events
     get:
       description: ''
       tags:
-        - Alerts
-        - Sid
         - Events
+      summary: Retrieve Events Sid
   /v1/Events:
     description: Debugger events
     get:
       description: Returns a list of events in the account, sorted by event-date.
       tags:
-        - Alerts
-        - Sid
         - Events
+      summary: Retrieve Events
 tags:
   - name: MonitorV1Alert
   - name: MonitorV1Event
