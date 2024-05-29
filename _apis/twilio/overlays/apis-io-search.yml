@@ -219,7 +219,13 @@ apis:
       Voice Intelligence API empowers you to analyze and extract actionable
       business intelligence from the conversations that take place every day
       between your customers and your agents.
-    tags: []
+    tags:
+      - Media
+      - Transcripts
+      - Operator
+      - Results
+      - Sentences
+      - Services
     overlays:
       - type: APIs.io Search
         url: overlays/intelligence-openapi-search.yml
@@ -237,8 +243,17 @@ apis:
         url: overlays/ip-message-openapi-api-evangelist-ratings.yml
   - aid: twilio:twilio-marketplace-api
     name: Twilio Marketplace API
-    description: Needs description.
-    tags: []
+    description: >-
+      Add-ons are available through the Twilio Marketplace. At a functional
+      level, Add-ons package a publisher's APIs and annotate the content that
+      Twilio provides by tapping into the publisher's data sources or by using
+      the publisher's technology to analyze the content.
+    tags:
+      - Available
+      - Marketplace
+      - Extensions
+      - 'On'
+      - Installed
     overlays:
       - type: APIs.io Search
         url: overlays/marketplace-openapi-search.yml
@@ -246,78 +261,182 @@ apis:
         url: overlays/marketplace-openapi-api-evangelist-ratings.yml
   - aid: twilio:twilio-media-api
     name: Twilio Media API
-    description: Needs description.
-    tags: []
+    description: >-
+      The Media subresource of the Message resource represents a piece of media,
+      such as an image, that is associated with a Message.
+    tags:
+      - Media
+      - Processors
+      - Recordings
+      - Player
+      - Streamers
+      - Grants""
+      - Playback
     overlays:
       - type: APIs.io Search
         url: overlays/media-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/media-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/messaging/api/media-resource
   - aid: twilio:twilio-messaging-api
     name: Twilio Messaging API
     description: >-
       Send and receive messages via SMS, MMS, WhatsApp, Facebook Messenger, and
       more through our Messaging and Conversations APIs.
-    tags: []
+    tags:
+      - Alpha
+      - Senders
+      - Services
+      - A2p
+      - Brands
+      - Registrations
+      - SMS
+      - Vettings
+      - Channels
+      - Messaging
+      - Deactivations
+      - Certificates
+      - Domains
+      - Link
+      - Shortening
+      - Configurations
+      - Pre Registered
+      - Numbers
+      - Phone
+      - Codes
+      - Toll Free
+      - Verifications
+      - Compliance
+      - Use Cases
     overlays:
       - type: APIs.io Search
         url: overlays/messaging-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/messaging-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/messaging/api
   - aid: twilio:twilio-microvisor-api
     name: Twilio Microvisor API
-    description: Needs description.
-    tags: []
+    description: >-
+      wilio Microvisor is a sophisticated new solution to the unique challenges
+      posed to developers by Internet of Things (IoT) product design.
+    tags:
+      - Configurations
+      - Keys
+      - Secrets
+      - Applications
+      - Manifests
+      - Devices
+      - Device
     overlays:
       - type: APIs.io Search
         url: overlays/microvisor-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/microvisor-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/iot/microvisor/api
   - aid: twilio:twilio-monitor-api
     name: Twilio Monitor API
-    description: Needs description.
-    tags: []
+    description: >-
+      An Alert resource instance represents a single log entry for an error or
+      warning encountered when Twilio makes a webhook request to your server, or
+      when your application makes a request to the REST API.
+    tags:
+      - Alerts
+      - Events
     overlays:
       - type: APIs.io Search
         url: overlays/monitor-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/monitor-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/usage/monitor-alert
   - aid: twilio:twilio-notify-api
     name: Twilio Notify API
-    description: Needs description.
-    tags: []
+    description: >-
+      The Notify REST API allows you to control your notifications workflow from
+      your server. You can create bindings, credentials, and services, as well
+      as send notifications using the endpoints in this REST API.
+    tags:
+      - Bindings
+      - Services
+      - Credentials
+      - Notifications
     overlays:
       - type: APIs.io Search
         url: overlays/notify-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/notify-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/notify/api
   - aid: twilio:twilio-numbers-api
     name: Twilio Numbers API
-    description: Needs description.
-    tags: []
+    description: >-
+      Twilio's virtual phone numbers give you instant access to local, national,
+      mobile, and toll-free phone numbers in over 100 countries for your voice
+      call and messaging applications. Leverage local phone numbers for your
+      customers to call and text, or use your own number.
+    tags:
+      - Authorization
+      - Documents
+      - Hosted
+      - Numbers
+      - Bulk
+      - Hosting
+      - Orders
+      - Bundles
+      - Compliance
+      - Regulatory
+      - Copies
+      - Dependent
+      - Signing
+      - Users
+      - Types
+      - Evaluations
+      - Assignments
+      - Items
+      - Regulations
+      - Replace
+      - Supporting
     overlays:
       - type: APIs.io Search
         url: overlays/numbers-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/numbers-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/phone-numbers
   - aid: twilio:twilio-pricing-api
     name: Twilio Pricing API
-    description: Needs description.
-    tags: []
+    description: >-
+      The Pricing Voice resource provides a simple API to pull real-time,
+      account-specific pricing for Twilio's Programmable Voice product.
+    tags:
+      - Countries
+      - Trunking
+      - ISO
+      - Destinations
+      - Numbers
     overlays:
       - type: APIs.io Search
         url: overlays/pricing-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/pricing-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/voice/pricing
   - aid: twilio:twilio-proxy-api
     name: Twilio Proxy API
-    description: Needs description.
-    tags: []
+    description: >-
+      Twilio Proxy is exposed as a REST API that allows you to create
+      masked/anonymized text and voice conversations between users.
+    tags:
+      - Interactions
+      - Services
+      - Sessions
+      - Messages
+      - Participants
+      - Numbers
+      - Phone
+      - Codes
     overlays:
       - type: APIs.io Search
         url: overlays/proxy-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/proxy-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/proxy/api
   - aid: twilio:twilio-routes-api
     name: Twilio Routes API
     description: Needs description.
@@ -329,22 +448,49 @@ apis:
         url: overlays/routes-openapi-api-evangelist-ratings.yml
   - aid: twilio:twilio-serverless-api
     name: Twilio Serverless API
-    description: Needs description.
-    tags: []
+    description: >-
+      The new Serverless API empowers you to deploy Twilio Functions and Assets
+      programmatically.
+    tags:
+      - Assets
+      - Services
+      - Versions
+      - Builds
+      - Status
+      - Deployments
+      - Environments
+      - Functions
+      - Content
+      - Logs
+      - Variables
     overlays:
       - type: APIs.io Search
         url: overlays/serverless-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/serverless-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/serverless/api
   - aid: twilio:twilio-studio-api
     name: Twilio Studio API
-    description: Needs description.
-    tags: []
+    description: >-
+      With the Studio REST API you can trigger Flows programmatically for
+      outbound use cases, manage Flow definitions for automated deployments, and
+      retrieve information about Executions for reporting.
+    tags:
+      - Executions
+      - Flows
+      - Context
+      - Execution
+      - Steps
+      - Revisions
+      - Validate
+      - Tests
+      - Users
     overlays:
       - type: APIs.io Search
         url: overlays/studio-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/studio-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/studio/rest-api/v2
   - aid: twilio:twilio-super-sim-api
     name: Twilio Super SIM API
     description: Needs description.
