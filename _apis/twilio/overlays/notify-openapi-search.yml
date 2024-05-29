@@ -10,137 +10,95 @@ paths:
     get:
       description: ''
       tags:
-        - Services
-        - Service
-        - Sid
         - Bindings
+        - Services
+      summary: Retrieve Services Service Sid Bindings Sid
     delete:
       description: ''
       tags:
-        - Services
-        - Service
-        - Sid
         - Bindings
+        - Services
+      summary: Delete Services Service Sid Bindings Sid
   /v1/Services/{ServiceSid}/Bindings:
     description: 'TODO: Resource-level docs'
     post:
       description: ''
       tags:
-        - Services
-        - Service
-        - Sid
         - Bindings
+        - Services
+      summary: Create Services Service Sid Bindings
     get:
       description: ''
       tags:
-        - Services
-        - Service
-        - Sid
         - Bindings
+        - Services
+      summary: Retrieve Services Service Sid Bindings
   /v1/Credentials:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Services
-        - Service
-        - Sid
-        - Bindings
         - Credentials
+      summary: Retrieve Credentials
     post:
       description: ''
       tags:
-        - Services
-        - Service
-        - Sid
-        - Bindings
         - Credentials
+      summary: Create Credentials
   /v1/Credentials/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Services
-        - Service
-        - Sid
-        - Bindings
         - Credentials
+      summary: Retrieve Credentials Sid
     post:
       description: ''
       tags:
-        - Services
-        - Service
-        - Sid
-        - Bindings
         - Credentials
+      summary: Create Credentials Sid
     delete:
       description: ''
       tags:
-        - Services
-        - Service
-        - Sid
-        - Bindings
         - Credentials
+      summary: Delete Credentials Sid
   /v1/Services/{ServiceSid}/Notifications:
     description: 'TODO: Resource-level docs'
     post:
       description: ''
       tags:
-        - Services
-        - Service
-        - Sid
-        - Bindings
-        - Credentials
         - Notifications
+        - Services
+      summary: Create Services Service Sid Notifications
   /v1/Services:
     description: 'TODO: Resource-level docs'
     post:
       description: ''
       tags:
         - Services
-        - Service
-        - Sid
-        - Bindings
-        - Credentials
-        - Notifications
+      summary: Create Services
     get:
       description: ''
       tags:
         - Services
-        - Service
-        - Sid
-        - Bindings
-        - Credentials
-        - Notifications
+      summary: Retrieve Services
   /v1/Services/{Sid}:
     description: 'TODO: Resource-level docs'
     delete:
       description: ''
       tags:
         - Services
-        - Service
-        - Sid
-        - Bindings
-        - Credentials
-        - Notifications
+      summary: Delete Services Sid
     get:
       description: ''
       tags:
         - Services
-        - Service
-        - Sid
-        - Bindings
-        - Credentials
-        - Notifications
+      summary: Retrieve Services Sid
     post:
       description: ''
       tags:
         - Services
-        - Service
-        - Sid
-        - Bindings
-        - Credentials
-        - Notifications
+      summary: Create Services Sid
 tags:
   - name: NotifyV1Binding
   - name: NotifyV1Credential
