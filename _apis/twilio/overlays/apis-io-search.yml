@@ -17,7 +17,25 @@ apis:
       account. But you can also create more accounts... subaccounts are useful
       for things like segmenting phone numbers and usage data for your customers
       and controlling access to data.
-    tags: []
+    tags:
+      - Authentication
+      - Promote
+      - Tokens
+      - Credentials
+      - AWS
+      - Retrieve
+      - Accounts
+      - Modify
+      - Keys
+      - Public
+      - Lists
+      - Numbers
+      - Phone
+      - Safe
+      - Checks
+      - From
+      - Removes
+      - Secondary
     overlays:
       - type: APIs.io Search
         url: overlays/accounts-openapi-search.yml
@@ -140,8 +158,21 @@ apis:
     humanURL: https://www.twilio.com/docs/conversations
   - aid: twilio:twilio-events-api
     name: Twilio Events API
-    description: Needs description.
-    tags: []
+    description: >-
+      Event Streams is an API that allows you to tap into a unified stream of
+      every interaction sent or received on Twilio. 
+    tags:
+      - Types
+      - Schemas
+      - Versions
+      - Sinks
+      - Tests
+      - Ate
+      - Val
+      - Validate
+      - Events
+      - Subscribed
+      - Subscriptions
     overlays:
       - type: APIs.io Search
         url: overlays/events-openapi-search.yml
@@ -158,22 +189,43 @@ apis:
         url: overlays/frontline-openapi-api-evangelist-ratings.yml
   - aid: twilio:twilio-insights-api
     name: Twilio Insights API
-    description: Needs description.
-    tags: []
+    description: >-
+      Voice Insights provides call quality analytics and aggregation tools for
+      investigating Twilio calls and conferences. Sensors in the Twilio Voice
+      SDKs and on Twilio media gateways gather call metrics and events and send
+      them to the Voice Insights platform for analysis and aggregation.
+    tags:
+      - Settings
+      - Annotations
+      - Call
+      - Summaries
+      - Conference
+      - Conferences
+      - Participants
+      - Events
+      - Metrics
+      - Eo
+      - Rooms
+      - Videos
     overlays:
       - type: APIs.io Search
         url: overlays/insights-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/insights-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/voice/voice-insights
   - aid: twilio:twilio-intelligence-api
     name: Twilio Intelligence API
-    description: Needs description.
+    description: >-
+      Voice Intelligence API empowers you to analyze and extract actionable
+      business intelligence from the conversations that take place every day
+      between your customers and your agents.
     tags: []
     overlays:
       - type: APIs.io Search
         url: overlays/intelligence-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/intelligence-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/voice/intelligence/api
   - aid: twilio:twilio-ip-messaging-api
     name: Twilio IP Messaging API
     description: Needs description.
