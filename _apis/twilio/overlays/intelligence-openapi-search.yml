@@ -10,150 +10,88 @@ paths:
     get:
       description: Get download URLs for media if possible
       tags:
-        - Transcripts
-        - Sid
         - Media
+        - Transcripts
+      summary: Retrieve Transcripts Sid Media
   /v2/Transcripts/{TranscriptSid}/OperatorResults:
     description: 'TODO: Resource-level docs'
     get:
       description: Retrieve a list of Operator Results for the given Transcript.
       tags:
-        - Transcripts
-        - Sid
-        - Media
-        - Transcript
         - Operator
         - Results
+        - Transcripts
+      summary: Retrieve Transcripts Transcript Sid Operator Results
   /v2/Transcripts/{TranscriptSid}/OperatorResults/{OperatorSid}:
     description: 'TODO: Resource-level docs'
     get:
       description: Fetch a specific Operator Result for the given Transcript.
       tags:
-        - Transcripts
-        - Sid
-        - Media
-        - Transcript
         - Operator
         - Results
+        - Transcripts
+      summary: Retrieve Transcripts Transcript Sid Operator Results Operator Sid
   /v2/Transcripts/{TranscriptSid}/Sentences:
     description: 'TODO: Resource-level docs'
     get:
       description: Get all Transcript Sentences by TranscriptSid
       tags:
-        - Transcripts
-        - Sid
-        - Media
-        - Transcript
-        - Operator
-        - Results
         - Sentences
+        - Transcripts
+      summary: Retrieve Transcripts Transcript Sid Sentences
   /v2/Services:
     description: 'TODO: Resource-level docs'
     post:
       description: Create a new Service for the given Account
       tags:
-        - Transcripts
-        - Sid
-        - Media
-        - Transcript
-        - Operator
-        - Results
-        - Sentences
         - Services
+      summary: Create Services
     get:
       description: Retrieves a list of all Services for an account.
       tags:
-        - Transcripts
-        - Sid
-        - Media
-        - Transcript
-        - Operator
-        - Results
-        - Sentences
         - Services
+      summary: Retrieve Services
   /v2/Services/{Sid}:
     description: 'TODO: Resource-level docs'
     delete:
       description: Delete a specific Service.
       tags:
-        - Transcripts
-        - Sid
-        - Media
-        - Transcript
-        - Operator
-        - Results
-        - Sentences
         - Services
+      summary: Delete Services Sid
     get:
       description: Fetch a specific Service.
       tags:
-        - Transcripts
-        - Sid
-        - Media
-        - Transcript
-        - Operator
-        - Results
-        - Sentences
         - Services
+      summary: Retrieve Services Sid
     post:
       description: Update a specific Service.
       tags:
-        - Transcripts
-        - Sid
-        - Media
-        - Transcript
-        - Operator
-        - Results
-        - Sentences
         - Services
+      summary: Create Services Sid
   /v2/Transcripts:
     description: 'TODO: Resource-level docs'
     post:
       description: Create a new Transcript for the service
       tags:
         - Transcripts
-        - Sid
-        - Media
-        - Transcript
-        - Operator
-        - Results
-        - Sentences
-        - Services
+      summary: Create Transcripts
     get:
       description: Retrieve a list of Transcripts for a given service.
       tags:
         - Transcripts
-        - Sid
-        - Media
-        - Transcript
-        - Operator
-        - Results
-        - Sentences
-        - Services
+      summary: Retrieve Transcripts
   /v2/Transcripts/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: Fetch a specific Transcript.
       tags:
         - Transcripts
-        - Sid
-        - Media
-        - Transcript
-        - Operator
-        - Results
-        - Sentences
-        - Services
+      summary: Retrieve Transcripts Sid
     delete:
       description: Delete a specific Transcript.
       tags:
         - Transcripts
-        - Sid
-        - Media
-        - Transcript
-        - Operator
-        - Results
-        - Sentences
-        - Services
+      summary: Delete Transcripts Sid
 tags:
   - name: IntelligenceV2Media
   - name: IntelligenceV2OperatorResult
