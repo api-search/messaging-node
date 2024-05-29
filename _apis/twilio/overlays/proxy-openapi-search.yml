@@ -12,21 +12,17 @@ paths:
         Retrieve a list of Interactions for a given
         [Session](https://www.twilio.com/docs/proxy/api/session).
       tags:
-        - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
         - Interactions
+        - Services
+        - Sessions
+      summary: Retrieve Services Service Sid Sessions Session Sid Interactions Sid
     delete:
       description: Delete a specific Interaction.
       tags:
-        - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
         - Interactions
+        - Services
+        - Sessions
+      summary: Delete Services Service Sid Sessions Session Sid Interactions Sid
   /v1/Services/{ServiceSid}/Sessions/{SessionSid}/Interactions:
     description: 'TODO: Resource-level docs'
     get:
@@ -34,12 +30,10 @@ paths:
         Retrieve a list of all Interactions for a Session. A maximum of 100
         records will be returned per page.
       tags:
-        - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
         - Interactions
+        - Services
+        - Sessions
+      summary: Retrieve Services Service Sid Sessions Session Sid Interactions
   /v1/Services/{ServiceSid}/Sessions/{SessionSid}/Participants/{ParticipantSid}/MessageInteractions:
     description: 'TODO: Resource-level docs'
     post:
@@ -48,55 +42,47 @@ paths:
         one [Participant](https://www.twilio.com/docs/proxy/api/participant). 
         The `inbound` properties for the Interaction will always be empty.
       tags:
-        - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
         - Interactions
+        - Messages
         - Participants
-        - Participant
-        - Message
+        - Services
+        - Sessions
+      summary: >-
+        Create Services Service Sid Sessions Session Sid Participants
+        Participant Sid Message Interactions
     get:
       description: ''
       tags:
-        - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
         - Interactions
+        - Messages
         - Participants
-        - Participant
-        - Message
+        - Services
+        - Sessions
+      summary: >-
+        Retrieve Services Service Sid Sessions Session Sid Participants
+        Participant Sid Message Interactions
   /v1/Services/{ServiceSid}/Sessions/{SessionSid}/Participants/{ParticipantSid}/MessageInteractions/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
         - Interactions
+        - Messages
         - Participants
-        - Participant
-        - Message
+        - Services
+        - Sessions
+      summary: >-
+        Retrieve Services Service Sid Sessions Session Sid Participants
+        Participant Sid Message Interactions Sid
   /v1/Services/{ServiceSid}/Sessions/{SessionSid}/Participants/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: Fetch a specific Participant.
       tags:
-        - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
-        - Interactions
         - Participants
-        - Participant
-        - Message
+        - Services
+        - Sessions
+      summary: Retrieve Services Service Sid Sessions Session Sid Participants Sid
     delete:
       description: >-
         Delete a specific Participant. This is a soft-delete. The participant
@@ -104,161 +90,84 @@ paths:
         are only permanently deleted when the
         [Session](https://www.twilio.com/docs/proxy/api/session) is deleted.
       tags:
-        - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
-        - Interactions
         - Participants
-        - Participant
-        - Message
+        - Services
+        - Sessions
+      summary: Delete Services Service Sid Sessions Session Sid Participants Sid
   /v1/Services/{ServiceSid}/Sessions/{SessionSid}/Participants:
     description: 'TODO: Resource-level docs'
     get:
       description: Retrieve a list of all Participants in a Session.
       tags:
-        - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
-        - Interactions
         - Participants
-        - Participant
-        - Message
+        - Services
+        - Sessions
+      summary: Retrieve Services Service Sid Sessions Session Sid Participants
     post:
       description: Add a new Participant to the Session
       tags:
-        - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
-        - Interactions
         - Participants
-        - Participant
-        - Message
+        - Services
+        - Sessions
+      summary: Create Services Service Sid Sessions Session Sid Participants
   /v1/Services/{ServiceSid}/PhoneNumbers:
     description: 'TODO: Resource-level docs'
     post:
       description: Add a Phone Number to a Service's Proxy Number Pool.
       tags:
-        - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
-        - Interactions
-        - Participants
-        - Participant
-        - Message
-        - Phone
         - Numbers
+        - Phone
+        - Services
+      summary: Create Services Service Sid Phone Numbers
     get:
       description: >-
         Retrieve a list of all Phone Numbers in the Proxy Number Pool for a
         Service. A maximum of 100 records will be returned per page.
       tags:
-        - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
-        - Interactions
-        - Participants
-        - Participant
-        - Message
-        - Phone
         - Numbers
+        - Phone
+        - Services
+      summary: Retrieve Services Service Sid Phone Numbers
   /v1/Services/{ServiceSid}/PhoneNumbers/{Sid}:
     description: 'TODO: Resource-level docs'
     delete:
       description: Delete a specific Phone Number from a Service.
       tags:
-        - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
-        - Interactions
-        - Participants
-        - Participant
-        - Message
-        - Phone
         - Numbers
+        - Phone
+        - Services
+      summary: Delete Services Service Sid Phone Numbers Sid
     get:
       description: Fetch a specific Phone Number.
       tags:
-        - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
-        - Interactions
-        - Participants
-        - Participant
-        - Message
-        - Phone
         - Numbers
+        - Phone
+        - Services
+      summary: Retrieve Services Service Sid Phone Numbers Sid
     post:
       description: Update a specific Proxy Number.
       tags:
-        - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
-        - Interactions
-        - Participants
-        - Participant
-        - Message
-        - Phone
         - Numbers
+        - Phone
+        - Services
+      summary: Create Services Service Sid Phone Numbers Sid
   /v1/Services/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: Fetch a specific Service.
       tags:
         - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
-        - Interactions
-        - Participants
-        - Participant
-        - Message
-        - Phone
-        - Numbers
+      summary: Retrieve Services Sid
     delete:
       description: Delete a specific Service.
       tags:
         - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
-        - Interactions
-        - Participants
-        - Participant
-        - Message
-        - Phone
-        - Numbers
+      summary: Delete Services Sid
     post:
       description: Update a specific Service.
       tags:
         - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
-        - Interactions
-        - Participants
-        - Participant
-        - Message
-        - Phone
-        - Numbers
+      summary: Create Services Sid
   /v1/Services:
     description: 'TODO: Resource-level docs'
     get:
@@ -267,74 +176,32 @@ paths:
         records will be returned per page.
       tags:
         - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
-        - Interactions
-        - Participants
-        - Participant
-        - Message
-        - Phone
-        - Numbers
+      summary: Retrieve Services
     post:
       description: Create a new Service for Twilio Proxy
       tags:
         - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
-        - Interactions
-        - Participants
-        - Participant
-        - Message
-        - Phone
-        - Numbers
+      summary: Create Services
   /v1/Services/{ServiceSid}/Sessions/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: Fetch a specific Session.
       tags:
         - Services
-        - Service
-        - Sid
         - Sessions
-        - Session
-        - Interactions
-        - Participants
-        - Participant
-        - Message
-        - Phone
-        - Numbers
+      summary: Retrieve Services Service Sid Sessions Sid
     delete:
       description: Delete a specific Session.
       tags:
         - Services
-        - Service
-        - Sid
         - Sessions
-        - Session
-        - Interactions
-        - Participants
-        - Participant
-        - Message
-        - Phone
-        - Numbers
+      summary: Delete Services Service Sid Sessions Sid
     post:
       description: Update a specific Session.
       tags:
         - Services
-        - Service
-        - Sid
         - Sessions
-        - Session
-        - Interactions
-        - Participants
-        - Participant
-        - Message
-        - Phone
-        - Numbers
+      summary: Create Services Service Sid Sessions Sid
   /v1/Services/{ServiceSid}/Sessions:
     description: 'TODO: Resource-level docs'
     get:
@@ -343,116 +210,50 @@ paths:
         records will be returned per page.
       tags:
         - Services
-        - Service
-        - Sid
         - Sessions
-        - Session
-        - Interactions
-        - Participants
-        - Participant
-        - Message
-        - Phone
-        - Numbers
+      summary: Retrieve Services Service Sid Sessions
     post:
       description: Create a new Session
       tags:
         - Services
-        - Service
-        - Sid
         - Sessions
-        - Session
-        - Interactions
-        - Participants
-        - Participant
-        - Message
-        - Phone
-        - Numbers
+      summary: Create Services Service Sid Sessions
   /v1/Services/{ServiceSid}/ShortCodes:
     description: 'TODO: Resource-level docs'
     post:
       description: Add a Short Code to the Proxy Number Pool for the Service.
       tags:
-        - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
-        - Interactions
-        - Participants
-        - Participant
-        - Message
-        - Phone
-        - Numbers
-        - Short
         - Codes
+        - Services
+      summary: Create Services Service Sid Short Codes
     get:
       description: >-
         Retrieve a list of all Short Codes in the Proxy Number Pool for the
         Service. A maximum of 100 records will be returned per page.
       tags:
-        - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
-        - Interactions
-        - Participants
-        - Participant
-        - Message
-        - Phone
-        - Numbers
-        - Short
         - Codes
+        - Services
+      summary: Retrieve Services Service Sid Short Codes
   /v1/Services/{ServiceSid}/ShortCodes/{Sid}:
     description: 'TODO: Resource-level docs'
     delete:
       description: Delete a specific Short Code from a Service.
       tags:
-        - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
-        - Interactions
-        - Participants
-        - Participant
-        - Message
-        - Phone
-        - Numbers
-        - Short
         - Codes
+        - Services
+      summary: Delete Services Service Sid Short Codes Sid
     get:
       description: Fetch a specific Short Code.
       tags:
-        - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
-        - Interactions
-        - Participants
-        - Participant
-        - Message
-        - Phone
-        - Numbers
-        - Short
         - Codes
+        - Services
+      summary: Retrieve Services Service Sid Short Codes Sid
     post:
       description: Update a specific Short Code.
       tags:
-        - Services
-        - Service
-        - Sid
-        - Sessions
-        - Session
-        - Interactions
-        - Participants
-        - Participant
-        - Message
-        - Phone
-        - Numbers
-        - Short
         - Codes
+        - Services
+      summary: Create Services Service Sid Short Codes Sid
 tags:
   - name: ProxyV1Interaction
   - name: ProxyV1MessageInteraction
