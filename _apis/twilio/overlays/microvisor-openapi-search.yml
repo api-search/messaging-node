@@ -10,266 +10,195 @@ paths:
     get:
       description: Retrieve a list of all Configs for an Account.
       tags:
-        - Configs
+        - Configurations
+      summary: Retrieve Configs
     post:
       description: Create a config for an Account.
       tags:
-        - Configs
+        - Configurations
+      summary: Create Configs
   /v1/Configs/{Key}:
     description: 'TODO: Resource-level docs'
     get:
       description: Retrieve a Config for an Account.
       tags:
-        - Configs
-        - Key
+        - Configurations
+        - Keys
+      summary: Retrieve Configs Key
     post:
       description: Update a config for an Account.
       tags:
-        - Configs
-        - Key
+        - Configurations
+        - Keys
+      summary: Create Configs Key
     delete:
       description: Delete a config for an Account.
       tags:
-        - Configs
-        - Key
+        - Configurations
+        - Keys
+      summary: Delete Configs Key
   /v1/Secrets:
     description: 'TODO: Resource-level docs'
     get:
       description: Retrieve a list of all Secrets for an Account.
       tags:
-        - Configs
-        - Key
         - Secrets
+      summary: Retrieve Secrets
     post:
       description: Create a secret for an Account.
       tags:
-        - Configs
-        - Key
         - Secrets
+      summary: Create Secrets
   /v1/Secrets/{Key}:
     description: 'TODO: Resource-level docs'
     get:
       description: Retrieve a Secret for an Account.
       tags:
-        - Configs
-        - Key
+        - Keys
         - Secrets
+      summary: Retrieve Secrets Key
     post:
       description: Update a secret for an Account.
       tags:
-        - Configs
-        - Key
+        - Keys
         - Secrets
+      summary: Create Secrets Key
     delete:
       description: Delete a secret for an Account.
       tags:
-        - Configs
-        - Key
+        - Keys
         - Secrets
+      summary: Delete Secrets Key
   /v1/Apps:
     description: 'TODO: Resource-level docs'
     get:
       description: Retrieve a list of all Apps for an Account.
       tags:
-        - Configs
-        - Key
-        - Secrets
-        - Apps
+        - Applications
+      summary: Retrieve Apps
   /v1/Apps/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: Fetch a specific App.
       tags:
-        - Configs
-        - Key
-        - Secrets
-        - Apps
-        - Sid
+        - Applications
+      summary: Retrieve Apps Sid
     delete:
       description: Delete a specific App.
       tags:
-        - Configs
-        - Key
-        - Secrets
-        - Apps
-        - Sid
+        - Applications
+      summary: Delete Apps Sid
   /v1/Apps/{AppSid}/Manifest:
     description: 'TODO: Resource-level docs'
     get:
       description: Retrieve the Manifest for an App.
       tags:
-        - Configs
-        - Key
-        - Secrets
-        - Apps
-        - Sid
-        - App
-        - Manifest
+        - Applications
+        - Manifests
+      summary: Retrieve Apps App Sid Manifest
   /v1/Devices:
     description: 'TODO: Resource-level docs'
     get:
       description: Retrieve a list of all Devices registered with the Account.
       tags:
-        - Configs
-        - Key
-        - Secrets
-        - Apps
-        - Sid
-        - App
-        - Manifest
         - Devices
+      summary: Retrieve Devices
   /v1/Devices/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: Fetch a specific Device.
       tags:
-        - Configs
-        - Key
-        - Secrets
-        - Apps
-        - Sid
-        - App
-        - Manifest
         - Devices
+      summary: Retrieve Devices Sid
     post:
       description: Update a specific Device.
       tags:
-        - Configs
-        - Key
-        - Secrets
-        - Apps
-        - Sid
-        - App
-        - Manifest
         - Devices
+      summary: Create Devices Sid
   /v1/Devices/{DeviceSid}/Configs:
     description: 'TODO: Resource-level docs'
     get:
       description: Retrieve a list of all Configs for a Device.
       tags:
-        - Configs
-        - Key
-        - Secrets
-        - Apps
-        - Sid
-        - App
-        - Manifest
-        - Devices
+        - Configurations
         - Device
+        - Devices
+      summary: Retrieve Devices Device Sid Configs
     post:
       description: Create a config for a Microvisor Device.
       tags:
-        - Configs
-        - Key
-        - Secrets
-        - Apps
-        - Sid
-        - App
-        - Manifest
-        - Devices
+        - Configurations
         - Device
+        - Devices
+      summary: Create Devices Device Sid Configs
   /v1/Devices/{DeviceSid}/Configs/{Key}:
     description: 'TODO: Resource-level docs'
     get:
       description: Retrieve a Config for a Device.
       tags:
-        - Configs
-        - Key
-        - Secrets
-        - Apps
-        - Sid
-        - App
-        - Manifest
-        - Devices
+        - Configurations
         - Device
+        - Devices
+        - Keys
+      summary: Retrieve Devices Device Sid Configs Key
     post:
       description: Update a config for a Microvisor Device.
       tags:
-        - Configs
-        - Key
-        - Secrets
-        - Apps
-        - Sid
-        - App
-        - Manifest
-        - Devices
+        - Configurations
         - Device
+        - Devices
+        - Keys
+      summary: Create Devices Device Sid Configs Key
     delete:
       description: Delete a config for a Microvisor Device.
       tags:
-        - Configs
-        - Key
-        - Secrets
-        - Apps
-        - Sid
-        - App
-        - Manifest
-        - Devices
+        - Configurations
         - Device
+        - Devices
+        - Keys
+      summary: Delete Devices Device Sid Configs Key
   /v1/Devices/{DeviceSid}/Secrets:
     description: 'TODO: Resource-level docs'
     get:
       description: Retrieve a list of all Secrets for a Device.
       tags:
-        - Configs
-        - Key
-        - Secrets
-        - Apps
-        - Sid
-        - App
-        - Manifest
-        - Devices
         - Device
+        - Devices
+        - Secrets
+      summary: Retrieve Devices Device Sid Secrets
     post:
       description: Create a secret for a Microvisor Device.
       tags:
-        - Configs
-        - Key
-        - Secrets
-        - Apps
-        - Sid
-        - App
-        - Manifest
-        - Devices
         - Device
+        - Devices
+        - Secrets
+      summary: Create Devices Device Sid Secrets
   /v1/Devices/{DeviceSid}/Secrets/{Key}:
     description: 'TODO: Resource-level docs'
     get:
       description: Retrieve a Secret for a Device.
       tags:
-        - Configs
-        - Key
-        - Secrets
-        - Apps
-        - Sid
-        - App
-        - Manifest
-        - Devices
         - Device
+        - Devices
+        - Keys
+        - Secrets
+      summary: Retrieve Devices Device Sid Secrets Key
     post:
       description: Update a secret for a Microvisor Device.
       tags:
-        - Configs
-        - Key
-        - Secrets
-        - Apps
-        - Sid
-        - App
-        - Manifest
-        - Devices
         - Device
+        - Devices
+        - Keys
+        - Secrets
+      summary: Create Devices Device Sid Secrets Key
     delete:
       description: Delete a secret for a Microvisor Device.
       tags:
-        - Configs
-        - Key
-        - Secrets
-        - Apps
-        - Sid
-        - App
-        - Manifest
-        - Devices
         - Device
+        - Devices
+        - Keys
+        - Secrets
+      summary: Delete Devices Device Sid Secrets Key
 tags:
   - name: MicrovisorV1AccountConfig
   - name: MicrovisorV1AccountSecret
