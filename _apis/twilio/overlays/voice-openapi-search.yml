@@ -13,9 +13,9 @@ paths:
         also delete the record from the Voice API.
       tags:
         - Archives
-        - Date
         - Calls
-        - Sid
+        - Dates
+      summary: Delete Archives Date Calls Sid
   /v1/ByocTrunks:
     description: >-
       BYOC Trunks allow you to bring your own voice carrier to Twilio, enabling
@@ -23,21 +23,13 @@ paths:
     post:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
         - Trunks
+      summary: Create Byoc Trunks
     get:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
         - Trunks
+      summary: Retrieve Byoc Trunks
   /v1/ByocTrunks/{Sid}:
     description: >-
       BYOC Trunks allow you to bring your own voice carrier to Twilio, enabling
@@ -45,30 +37,18 @@ paths:
     get:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
         - Trunks
+      summary: Retrieve Byoc Trunks Sid
     post:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
         - Trunks
+      summary: Create Byoc Trunks Sid
     delete:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
         - Trunks
+      summary: Delete Byoc Trunks Sid
   /v1/ConnectionPolicies:
     description: >-
       Connection Policy for sending traffic to your communications
@@ -76,25 +56,15 @@ paths:
     post:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
+        - Connections
         - Policies
+      summary: Create Connection Policies
     get:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
+        - Connections
         - Policies
+      summary: Retrieve Connection Policies
   /v1/ConnectionPolicies/{Sid}:
     description: >-
       Connection Policy for sending traffic to your communications
@@ -102,105 +72,60 @@ paths:
     get:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
+        - Connections
         - Policies
+      summary: Retrieve Connection Policies Sid
     post:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
+        - Connections
         - Policies
+      summary: Create Connection Policies Sid
     delete:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
+        - Connections
         - Policies
+      summary: Delete Connection Policies Sid
   /v1/ConnectionPolicies/{ConnectionPolicySid}/Targets:
     description: Network element entry points into your communications infrastructure
     post:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
+        - Connections
         - Policies
-        - Policy
         - Targets
+      summary: Create Connection Policies Connection Policy Sid Targets
     get:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
+        - Connections
         - Policies
-        - Policy
         - Targets
+      summary: Retrieve Connection Policies Connection Policy Sid Targets
   /v1/ConnectionPolicies/{ConnectionPolicySid}/Targets/{Sid}:
     description: Network element entry points into your communications infrastructure
     get:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
+        - Connections
         - Policies
-        - Policy
         - Targets
+      summary: Retrieve Connection Policies Connection Policy Sid Targets Sid
     post:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
+        - Connections
         - Policies
-        - Policy
         - Targets
+      summary: Create Connection Policies Connection Policy Sid Targets Sid
     delete:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
+        - Connections
         - Policies
-        - Policy
         - Targets
+      summary: Delete Connection Policies Connection Policy Sid Targets Sid
   /v1/DialingPermissions:
     description: 'TODO: Resource-level docs'
   /v1/DialingPermissions/Countries/{IsoCode}:
@@ -210,41 +135,21 @@ paths:
         Retrieve voice dialing country permissions identified by the given ISO
         country code
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
-        - Policies
-        - Policy
-        - Targets
-        - Dialing
-        - Permissions
-        - Countries
-        - Iso
         - Code
+        - Countries
+        - Dialing
+        - ISO
+        - Permissions
+      summary: Retrieve Dialing Permissions Countries Iso Code
   /v1/DialingPermissions/Countries:
     description: 'TODO: Resource-level docs'
     get:
       description: Retrieve all voice dialing country permissions for this account
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
-        - Policies
-        - Policy
-        - Targets
+        - Countries
         - Dialing
         - Permissions
-        - Countries
-        - Iso
-        - Code
+      summary: Retrieve Dialing Permissions Countries
   /v1/DialingPermissions/BulkCountryUpdates:
     description: 'TODO: Resource-level docs'
     post:
@@ -253,24 +158,11 @@ paths:
         of one or more countries identified by the corresponding [ISO country
         code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
-        - Policies
-        - Policy
-        - Targets
+        - Bulk
+        - Countries
         - Dialing
         - Permissions
-        - Countries
-        - Iso
-        - Code
-        - Bulk
-        - Country
-        - Updates
+      summary: Create Dialing Permissions Bulk Country Updates
   /v1/DialingPermissions/Countries/{IsoCode}/HighRiskSpecialPrefixes:
     description: 'TODO: Resource-level docs'
     get:
@@ -279,82 +171,30 @@ paths:
         corresponding to the [ISO country
         code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
-        - Policies
-        - Policy
-        - Targets
-        - Dialing
-        - Permissions
-        - Countries
-        - Iso
         - Code
-        - Bulk
-        - Country
-        - Updates
+        - Countries
+        - Dialing
         - High
+        - ISO
+        - Permissions
+        - Prefixes
         - Risk
         - Special
-        - Prefixes
+      summary: >-
+        Retrieve Dialing Permissions Countries Iso Code High Risk Special
+        Prefixes
   /v1/Settings:
     description: 'TODO: Resource-level docs'
     get:
       description: Retrieve voice dialing permissions inheritance for the sub-account
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
-        - Policies
-        - Policy
-        - Targets
-        - Dialing
-        - Permissions
-        - Countries
-        - Iso
-        - Code
-        - Bulk
-        - Country
-        - Updates
-        - High
-        - Risk
-        - Special
-        - Prefixes
         - Settings
+      summary: Retrieve Settings
     post:
       description: Update voice dialing permissions inheritance for the sub-account
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
-        - Policies
-        - Policy
-        - Targets
-        - Dialing
-        - Permissions
-        - Countries
-        - Iso
-        - Code
-        - Bulk
-        - Country
-        - Updates
-        - High
-        - Risk
-        - Special
-        - Prefixes
         - Settings
+      summary: Create Settings
   /v1/IpRecords:
     description: >-
       IP Records hold information about the IP addresses and ranges
@@ -363,59 +203,15 @@ paths:
     post:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
-        - Policies
-        - Policy
-        - Targets
-        - Dialing
-        - Permissions
-        - Countries
-        - Iso
-        - Code
-        - Bulk
-        - Country
-        - Updates
-        - High
-        - Risk
-        - Special
-        - Prefixes
-        - Settings
-        - Ip
+        - IP
         - Records
+      summary: Create Ip Records
     get:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
-        - Policies
-        - Policy
-        - Targets
-        - Dialing
-        - Permissions
-        - Countries
-        - Iso
-        - Code
-        - Bulk
-        - Country
-        - Updates
-        - High
-        - Risk
-        - Special
-        - Prefixes
-        - Settings
-        - Ip
+        - IP
         - Records
+      summary: Retrieve Ip Records
   /v1/IpRecords/{Sid}:
     description: >-
       IP Records hold information about the IP addresses and ranges
@@ -424,87 +220,21 @@ paths:
     get:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
-        - Policies
-        - Policy
-        - Targets
-        - Dialing
-        - Permissions
-        - Countries
-        - Iso
-        - Code
-        - Bulk
-        - Country
-        - Updates
-        - High
-        - Risk
-        - Special
-        - Prefixes
-        - Settings
-        - Ip
+        - IP
         - Records
+      summary: Retrieve Ip Records Sid
     post:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
-        - Policies
-        - Policy
-        - Targets
-        - Dialing
-        - Permissions
-        - Countries
-        - Iso
-        - Code
-        - Bulk
-        - Country
-        - Updates
-        - High
-        - Risk
-        - Special
-        - Prefixes
-        - Settings
-        - Ip
+        - IP
         - Records
+      summary: Create Ip Records Sid
     delete:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
-        - Policies
-        - Policy
-        - Targets
-        - Dialing
-        - Permissions
-        - Countries
-        - Iso
-        - Code
-        - Bulk
-        - Country
-        - Updates
-        - High
-        - Risk
-        - Special
-        - Prefixes
-        - Settings
-        - Ip
+        - IP
         - Records
+      summary: Delete Ip Records Sid
   /v1/SourceIpMappings:
     description: >-
       With Source IP Mappings, Twilio can recognize your SIP requests based on
@@ -513,63 +243,17 @@ paths:
     post:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
-        - Policies
-        - Policy
-        - Targets
-        - Dialing
-        - Permissions
-        - Countries
-        - Iso
-        - Code
-        - Bulk
-        - Country
-        - Updates
-        - High
-        - Risk
-        - Special
-        - Prefixes
-        - Settings
-        - Ip
-        - Records
-        - Source
-        - Mappings
+        - IP
+        - Mapping
+        - Sources
+      summary: Create Source Ip Mappings
     get:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
-        - Policies
-        - Policy
-        - Targets
-        - Dialing
-        - Permissions
-        - Countries
-        - Iso
-        - Code
-        - Bulk
-        - Country
-        - Updates
-        - High
-        - Risk
-        - Special
-        - Prefixes
-        - Settings
-        - Ip
-        - Records
-        - Source
-        - Mappings
+        - IP
+        - Mapping
+        - Sources
+      summary: Retrieve Source Ip Mappings
   /v1/SourceIpMappings/{Sid}:
     description: >-
       With Source IP Mappings, Twilio can recognize your SIP requests based on
@@ -578,93 +262,24 @@ paths:
     get:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
-        - Policies
-        - Policy
-        - Targets
-        - Dialing
-        - Permissions
-        - Countries
-        - Iso
-        - Code
-        - Bulk
-        - Country
-        - Updates
-        - High
-        - Risk
-        - Special
-        - Prefixes
-        - Settings
-        - Ip
-        - Records
-        - Source
-        - Mappings
+        - IP
+        - Mapping
+        - Sources
+      summary: Retrieve Source Ip Mappings Sid
     post:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
-        - Policies
-        - Policy
-        - Targets
-        - Dialing
-        - Permissions
-        - Countries
-        - Iso
-        - Code
-        - Bulk
-        - Country
-        - Updates
-        - High
-        - Risk
-        - Special
-        - Prefixes
-        - Settings
-        - Ip
-        - Records
-        - Source
-        - Mappings
+        - IP
+        - Mapping
+        - Sources
+      summary: Create Source Ip Mappings Sid
     delete:
       description: ''
       tags:
-        - Archives
-        - Date
-        - Calls
-        - Sid
-        - Byoc
-        - Trunks
-        - Connection
-        - Policies
-        - Policy
-        - Targets
-        - Dialing
-        - Permissions
-        - Countries
-        - Iso
-        - Code
-        - Bulk
-        - Country
-        - Updates
-        - High
-        - Risk
-        - Special
-        - Prefixes
-        - Settings
-        - Ip
-        - Records
-        - Source
-        - Mappings
+        - IP
+        - Mapping
+        - Sources
+      summary: Delete Source Ip Mappings Sid
 tags:
   - name: VoiceV1ArchivedCall
   - name: VoiceV1BulkCountryUpdate
