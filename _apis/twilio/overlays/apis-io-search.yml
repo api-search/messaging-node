@@ -493,55 +493,174 @@ apis:
     humanURL: https://www.twilio.com/docs/studio/rest-api/v2
   - aid: twilio:twilio-super-sim-api
     name: Twilio Super SIM API
-    description: Needs description.
-    tags: []
+    description: >-
+      Twilio IoT's Super SIM API empowers you to manage and deploy massive
+      fleets of IoT devices around the world. Using this REST API, you can
+      activate and deactivate Super SIMs, control the capabilities of individual
+      Super SIMs or groups of Super SIMs, send machine-to-machine (M2M)
+      messages, and query usage.
+    tags:
+      - Billing
+      - Periods
+      - SIMs
+      - Esim
+      - Profiles
+      - Fleets
+      - Commands
+      - IP
+      - Networks
+      - Access
+      - Settings
+      - Addresses
+      - SMS
+      - Records
+      - Usage
     overlays:
       - type: APIs.io Search
         url: overlays/super-sim-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/super-sim-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/iot/supersim/api
   - aid: twilio:twilio-sync-api
     name: Twilio Sync API
-    description: Needs description.
-    tags: []
+    description: >-
+      The Sync REST API allows you to control your Sync applications from
+      backend servers in much the same way you can from the client. You can
+      create, update and manage your documents, lists and maps using these
+      resources.
+    tags:
+      - Documents
+      - Services
+      - Identity
+      - Permissions
+      - Messages
+      - Stream
+      - Streams
+      - Index
+      - Items
+      - Maps
+      - Keys
     overlays:
       - type: APIs.io Search
         url: overlays/sync-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/sync-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/sync/api
   - aid: twilio:twilio-task-router-api
     name: Twilio Task Router API
-    description: Needs description.
-    tags: []
+    description: >-
+      TaskRouter's REST API enables you to interact with TaskRouter resources
+      from your server-side applications.
+    tags:
+      - Activities
+      - Workspaces
+      - Events
+      - Tasks
+      - Channels
+      - Queues
+      - Cumulative
+      - Statistics
+      - Time
+      - Reservations
+      - Workers
+      - Workflows
     overlays:
       - type: APIs.io Search
         url: overlays/task-router-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/task-router-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/taskrouter/api
   - aid: twilio:twilio-trunking-api
-    name: Twilio Trunking API
-    description: Needs description.
-    tags: []
+    name: Twilio Elastic SIP Trunking API
+    description: >-
+      Twilio Elastic SIP Trunking is a cloud-based solution that provides
+      connectivity for IP-based communications infrastructure to connect to the
+      PSTN. Using Elastic SIP Trunking you can make and receive phone calls to
+      the rest of the world via any broadband internet connection.
+    tags:
+      - Credentials
+      - Trunks
+      - Access
+      - Controls
+      - IP
+      - Origination
+      - URL
+      - Numbers
+      - Phone
+      - Recording
     overlays:
       - type: APIs.io Search
         url: overlays/trunking-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/trunking-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/sip-trunking/api
   - aid: twilio:twilio-trust-hub-api
     name: Twilio Trust Hub API
-    description: Needs description.
-    tags: []
+    description: >-
+      Twilio is launching a new KYC platform that will enable Twilio to attach a
+      trust level to customers, allowing them to gain access to advanced
+      communication services. With our advanced vetting process with
+      industry-leading accuracy rates, Twilio promises to authorize customers
+      within 24 hours of submitting their profile.
+    tags:
+      - Compliance
+      - Customers
+      - Initialize
+      - Inquiries
+      - Toll Free
+      - Profiles
+      - Assignments
+      - Channels
+      - Endpoints
+      - Entities
+      - Evaluations
+      - Users
+      - Types
+      - Policies
+      - Documents
+      - Supporting
+      - Products
+      - Trust
     overlays:
       - type: APIs.io Search
         url: overlays/trust-hub-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/trust-hub-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/trust-hub
   - aid: twilio:twilio-verify-api
     name: Twilio Verify API
     description: >-
       Set up SMS or voice verifications to quickly authenticate users, fight
-      fraud, and protect user accounts.
-    tags: []
+      fraud, and protect user accounts. As part of Twilio's account security
+      offerings, the Twilio Verify API makes it simple to add user verification
+      to your web application.
+    tags:
+      - Access
+      - Services
+      - Tokens
+      - Buckets
+      - Limits
+      - Rates
+      - Challenges
+      - Entities
+      - Identity
+      - Factors
+      - Forms
+      - Types
+      - Configurations
+      - Messaging
+      - Countries
+      - Notifications
+      - Numbers
+      - Safe
+      - Phone
+      - Verifications
+      - Attempts
+      - Summaries
+      - Checks
+      - Verification
+      - Templates
+      - Webhooks
     overlays:
       - type: APIs.io Search
         url: overlays/verify-openapi-search.yml
@@ -555,7 +674,21 @@ apis:
       applications. The platform provides APIs, SDKs, and helper tools to
       capture, distribute, record, and render high quality audio and video
       applications.
-    tags: []
+    tags:
+      - Compositions
+      - Hooks
+      - Default
+      - Settings
+      - Recordings
+      - Recording
+      - Rooms
+      - Participants
+      - Anonymize
+      - Published
+      - Tracks
+      - Rules
+      - Subscribe
+      - Subscribed
     overlays:
       - type: APIs.io Search
         url: overlays/video-openapi-search.yml
@@ -564,9 +697,34 @@ apis:
   - aid: twilio:twilio-voice-api
     name: Twilio Voice API
     description: >-
-      Build custom voice call experiences for your applications to reach
-      customers around the world.
-    tags: []
+      Build a voice experience that you can quickly scale and modify with a wide
+      array of customization options and resources, like our Voice SDK. Then,
+      add on features like Interactive Voice Response (IVR), Voice Intelligence,
+      voice recording and speech recognition to create an experience that you
+      and your customers will appreciate.
+    tags:
+      - Archives
+      - Calls
+      - Dates
+      - Trunks
+      - Connections
+      - Policies
+      - Targets
+      - Code
+      - Countries
+      - Dialing
+      - ISO
+      - Permissions
+      - Bulk
+      - High
+      - Prefixes
+      - Risk
+      - Special
+      - Settings
+      - IP
+      - Records
+      - Mapping
+      - Sources
     overlays:
       - type: APIs.io Search
         url: overlays/voice-openapi-search.yml
@@ -574,13 +732,24 @@ apis:
         url: overlays/voice-openapi-api-evangelist-ratings.yml
   - aid: twilio:twilio-wireless-api
     name: Twilio Wireless API
-    description: Needs description.
-    tags: []
+    description: >-
+      The Programmable Wireless REST API enables you to programmatically manage
+      global fleets of cellularly connected IoT devices.
+    tags:
+      - Records
+      - Usage
+      - Commands
+      - Data
+      - SIMs
+      - Sessions
+      - Plans
+      - Rates
     overlays:
       - type: APIs.io Search
         url: overlays/wireless-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/wireless-openapi-api-evangelist-ratings.yml
+    humanURL: https://www.twilio.com/docs/iot/wireless/api
 maintainers:
   - FN: APIs.json
     email: info@apis.io
