@@ -10,232 +10,163 @@ paths:
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
         - Activities
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Activities Sid
     post:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
         - Activities
+        - Workspaces
+      summary: Create Workspaces Workspace Sid Activities Sid
     delete:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
         - Activities
+        - Workspaces
+      summary: Delete Workspaces Workspace Sid Activities Sid
   /v1/Workspaces/{WorkspaceSid}/Activities:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
         - Activities
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Activities
     post:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
         - Activities
+        - Workspaces
+      summary: Create Workspaces Workspace Sid Activities
   /v1/Workspaces/{WorkspaceSid}/Events/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
         - Events
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Events Sid
   /v1/Workspaces/{WorkspaceSid}/Events:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
         - Events
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Events
   /v1/Workspaces/{WorkspaceSid}/Tasks/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
         - Tasks
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Tasks Sid
     post:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
         - Tasks
+        - Workspaces
+      summary: Create Workspaces Workspace Sid Tasks Sid
     delete:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
         - Tasks
+        - Workspaces
+      summary: Delete Workspaces Workspace Sid Tasks Sid
   /v1/Workspaces/{WorkspaceSid}/Tasks:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
         - Tasks
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Tasks
     post:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
         - Tasks
+        - Workspaces
+      summary: Create Workspaces Workspace Sid Tasks
   /v1/Workspaces/{WorkspaceSid}/TaskChannels/{Sid}:
     description: Types of tasks
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
         - Channels
+        - Tasks
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Task Channels Sid
     post:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
         - Channels
+        - Tasks
+        - Workspaces
+      summary: Create Workspaces Workspace Sid Task Channels Sid
     delete:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
         - Channels
+        - Tasks
+        - Workspaces
+      summary: Delete Workspaces Workspace Sid Task Channels Sid
   /v1/Workspaces/{WorkspaceSid}/TaskChannels:
     description: Types of tasks
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
         - Channels
+        - Tasks
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Task Channels
     post:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
         - Channels
+        - Tasks
+        - Workspaces
+      summary: Create Workspaces Workspace Sid Task Channels
   /v1/Workspaces/{WorkspaceSid}/TaskQueues/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
         - Queues
+        - Tasks
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Task Queues Sid
     post:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
         - Queues
+        - Tasks
+        - Workspaces
+      summary: Create Workspaces Workspace Sid Task Queues Sid
     delete:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
         - Queues
+        - Tasks
+        - Workspaces
+      summary: Delete Workspaces Workspace Sid Task Queues Sid
   /v1/Workspaces/{WorkspaceSid}/TaskQueues:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
         - Queues
+        - Tasks
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Task Queues
     post:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
         - Queues
+        - Tasks
+        - Workspaces
+      summary: Create Workspaces Workspace Sid Task Queues
   /v1/Workspaces/{WorkspaceSid}/TaskQueues/RealTimeStatistics:
     description: 'TODO: Resource-level docs'
   /v1/Workspaces/{WorkspaceSid}/TaskQueues/{TaskQueueSid}/CumulativeStatistics:
@@ -243,817 +174,316 @@ paths:
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
         - Cumulative
+        - Queues
+        - Statistics
+        - Tasks
+        - Workspaces
+      summary: >-
+        Retrieve Workspaces Workspace Sid Task Queues Task Queue Sid Cumulative
+        Statistics
   /v1/Workspaces/{WorkspaceSid}/TaskQueues/{TaskQueueSid}/RealTimeStatistics:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
         - Queues
-        - Real
-        - Time
         - Statistics
-        - Queue
-        - Cumulative
+        - Tasks
+        - Time
+        - Workspaces
+      summary: >-
+        Retrieve Workspaces Workspace Sid Task Queues Task Queue Sid Real Time
+        Statistics
   /v1/Workspaces/{WorkspaceSid}/TaskQueues/{TaskQueueSid}/Statistics:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
         - Queues
-        - Real
-        - Time
         - Statistics
-        - Queue
-        - Cumulative
+        - Tasks
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Task Queues Task Queue Sid Statistics
   /v1/Workspaces/{WorkspaceSid}/TaskQueues/Statistics:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
         - Queues
-        - Real
-        - Time
         - Statistics
-        - Queue
-        - Cumulative
+        - Tasks
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Task Queues Statistics
   /v1/Workspaces/{WorkspaceSid}/Tasks/{TaskSid}/Reservations:
     description: Tasks reserved for workers
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
         - Reservations
+        - Tasks
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Tasks Task Sid Reservations
   /v1/Workspaces/{WorkspaceSid}/Tasks/{TaskSid}/Reservations/{Sid}:
     description: Tasks reserved for workers
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
         - Reservations
+        - Tasks
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Tasks Task Sid Reservations Sid
     post:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
         - Reservations
+        - Tasks
+        - Workspaces
+      summary: Create Workspaces Workspace Sid Tasks Task Sid Reservations Sid
   /v1/Workspaces/{WorkspaceSid}/Workers:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
         - Workers
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Workers
     post:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
         - Workers
+        - Workspaces
+      summary: Create Workspaces Workspace Sid Workers
   /v1/Workspaces/{WorkspaceSid}/Workers/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
         - Workers
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Workers Sid
     post:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
         - Workers
+        - Workspaces
+      summary: Create Workspaces Workspace Sid Workers Sid
     delete:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
         - Workers
+        - Workspaces
+      summary: Delete Workspaces Workspace Sid Workers Sid
   /v1/Workspaces/{WorkspaceSid}/Workers/{WorkerSid}/Channels:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
         - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
         - Workers
-        - Worker
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Workers Worker Sid Channels
   /v1/Workspaces/{WorkspaceSid}/Workers/{WorkerSid}/Channels/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
         - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
         - Workers
-        - Worker
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Workers Worker Sid Channels Sid
     post:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
         - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
         - Workers
-        - Worker
+        - Workspaces
+      summary: Create Workspaces Workspace Sid Workers Worker Sid Channels Sid
   /v1/Workspaces/{WorkspaceSid}/Workers/{WorkerSid}/Statistics:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
         - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
         - Workers
-        - Worker
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Workers Worker Sid Statistics
   /v1/Workspaces/{WorkspaceSid}/Workers/{WorkerSid}/Reservations:
     description: Current and past reservations for a worker
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
         - Reservations
         - Workers
-        - Worker
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Workers Worker Sid Reservations
   /v1/Workspaces/{WorkspaceSid}/Workers/{WorkerSid}/Reservations/{Sid}:
     description: Current and past reservations for a worker
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
         - Reservations
         - Workers
-        - Worker
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Workers Worker Sid Reservations Sid
     post:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
         - Reservations
         - Workers
-        - Worker
+        - Workspaces
+      summary: Create Workspaces Workspace Sid Workers Worker Sid Reservations Sid
   /v1/Workspaces/{WorkspaceSid}/Workers/Statistics:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
         - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
         - Workers
-        - Worker
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Workers Statistics
   /v1/Workspaces/{WorkspaceSid}/Workers/CumulativeStatistics:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
         - Cumulative
-        - Reservations
+        - Statistics
         - Workers
-        - Worker
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Workers Cumulative Statistics
   /v1/Workspaces/{WorkspaceSid}/Workers/RealTimeStatistics:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
         - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
+        - Time
         - Workers
-        - Worker
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Workers Real Time Statistics
   /v1/Workspaces/{WorkspaceSid}/Workflows/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
-        - Workers
-        - Worker
         - Workflows
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Workflows Sid
     post:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
-        - Workers
-        - Worker
         - Workflows
+        - Workspaces
+      summary: Create Workspaces Workspace Sid Workflows Sid
     delete:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
-        - Workers
-        - Worker
         - Workflows
+        - Workspaces
+      summary: Delete Workspaces Workspace Sid Workflows Sid
   /v1/Workspaces/{WorkspaceSid}/Workflows:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
-        - Workers
-        - Worker
         - Workflows
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Workflows
     post:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
-        - Workers
-        - Worker
         - Workflows
+        - Workspaces
+      summary: Create Workspaces Workspace Sid Workflows
   /v1/Workspaces/{WorkspaceSid}/Workflows/{WorkflowSid}/CumulativeStatistics:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
         - Cumulative
-        - Reservations
-        - Workers
-        - Worker
+        - Statistics
         - Workflows
-        - Workflow
+        - Workspaces
+      summary: >-
+        Retrieve Workspaces Workspace Sid Workflows Workflow Sid Cumulative
+        Statistics
   /v1/Workspaces/{WorkspaceSid}/Workflows/{WorkflowSid}/RealTimeStatistics:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
         - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
-        - Workers
-        - Worker
+        - Time
         - Workflows
-        - Workflow
+        - Workspaces
+      summary: >-
+        Retrieve Workspaces Workspace Sid Workflows Workflow Sid Real Time
+        Statistics
   /v1/Workspaces/{WorkspaceSid}/Workflows/{WorkflowSid}/Statistics:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
         - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
-        - Workers
-        - Worker
         - Workflows
-        - Workflow
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Workflows Workflow Sid Statistics
   /v1/Workspaces/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
         - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
-        - Workers
-        - Worker
-        - Workflows
-        - Workflow
+      summary: Retrieve Workspaces Sid
     post:
       description: ''
       tags:
         - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
-        - Workers
-        - Worker
-        - Workflows
-        - Workflow
+      summary: Create Workspaces Sid
     delete:
       description: ''
       tags:
         - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
-        - Workers
-        - Worker
-        - Workflows
-        - Workflow
+      summary: Delete Workspaces Sid
   /v1/Workspaces:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
         - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
-        - Workers
-        - Worker
-        - Workflows
-        - Workflow
+      summary: Retrieve Workspaces
     post:
       description: ''
       tags:
         - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
-        - Workers
-        - Worker
-        - Workflows
-        - Workflow
+      summary: Create Workspaces
   /v1/Workspaces/{WorkspaceSid}/CumulativeStatistics:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
-        - Statistics
-        - Queue
         - Cumulative
-        - Reservations
-        - Workers
-        - Worker
-        - Workflows
-        - Workflow
+        - Statistics
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Cumulative Statistics
   /v1/Workspaces/{WorkspaceSid}/RealTimeStatistics:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
         - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
-        - Workers
-        - Worker
-        - Workflows
-        - Workflow
+        - Time
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Real Time Statistics
   /v1/Workspaces/{WorkspaceSid}/Statistics:
     description: 'TODO: Resource-level docs'
     get:
       description: ''
       tags:
-        - Workspaces
-        - Workspace
-        - Sid
-        - Activities
-        - Events
-        - Tasks
-        - Task
-        - Channels
-        - Queues
-        - Real
-        - Time
         - Statistics
-        - Queue
-        - Cumulative
-        - Reservations
-        - Workers
-        - Worker
-        - Workflows
-        - Workflow
+        - Workspaces
+      summary: Retrieve Workspaces Workspace Sid Statistics
 tags:
   - name: TaskrouterV1Activity
   - name: TaskrouterV1Event
