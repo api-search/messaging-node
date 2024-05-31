@@ -13,9 +13,10 @@ paths:
         necessary to start a new embedded session.
       tags:
         - Compliance
-        - Inquiries
         - Customers
         - Initialize
+        - Inquiries
+      summary: Create Compliance Inquiries Customers Initialize
   /v1/ComplianceInquiries/Customers/{CustomerId}/Initialize:
     description: 'TODO: Resource-level docs'
     post:
@@ -24,11 +25,10 @@ paths:
         rejected Compliance Inquiry for editing.
       tags:
         - Compliance
-        - Inquiries
         - Customers
         - Initialize
-        - Customer
-        - Id
+        - Inquiries
+      summary: Create Compliance Inquiries Customers Customer Id Initialize
   /v1/ComplianceInquiries/Tollfree/Initialize:
     description: 'TODO: Resource-level docs'
     post:
@@ -38,1136 +38,403 @@ paths:
         session.
       tags:
         - Compliance
-        - Inquiries
-        - Customers
         - Initialize
-        - Customer
-        - Id
-        - Tollfree
+        - Inquiries
+        - Toll Free
+      summary: Create Compliance Inquiries Tollfree Initialize
   /v1/CustomerProfiles:
     description: 'TODO: Resource-level docs'
     post:
       description: Create a new Customer-Profile.
       tags:
-        - Compliance
-        - Inquiries
         - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
         - Profiles
+      summary: Create Customer Profiles
     get:
       description: Retrieve a list of all Customer-Profiles for an account.
       tags:
-        - Compliance
-        - Inquiries
         - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
         - Profiles
+      summary: Retrieve Customer Profiles
   /v1/CustomerProfiles/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: Fetch a specific Customer-Profile instance.
       tags:
-        - Compliance
-        - Inquiries
         - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
         - Profiles
-        - Sid
+      summary: Retrieve Customer Profiles Sid
     post:
       description: Updates a Customer-Profile in an account.
       tags:
-        - Compliance
-        - Inquiries
         - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
         - Profiles
-        - Sid
+      summary: Create Customer Profiles Sid
     delete:
       description: Delete a specific Customer-Profile.
       tags:
-        - Compliance
-        - Inquiries
         - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
         - Profiles
-        - Sid
+      summary: Delete Customer Profiles Sid
   /v1/CustomerProfiles/{CustomerProfileSid}/ChannelEndpointAssignments:
     description: 'TODO: Resource-level docs'
     post:
       description: Create a new Assigned Item.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
         - Assignments
+        - Channels
+        - Customers
+        - Endpoints
+        - Profiles
+      summary: >-
+        Create Customer Profiles Customer Profile Sid Channel Endpoint
+        Assignments
     get:
       description: Retrieve a list of all Assigned Items for an account.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
         - Assignments
+        - Channels
+        - Customers
+        - Endpoints
+        - Profiles
+      summary: >-
+        Retrieve Customer Profiles Customer Profile Sid Channel Endpoint
+        Assignments
   /v1/CustomerProfiles/{CustomerProfileSid}/ChannelEndpointAssignments/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: Fetch specific Assigned Item Instance.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
         - Assignments
+        - Channels
+        - Customers
+        - Endpoints
+        - Profiles
+      summary: >-
+        Retrieve Customer Profiles Customer Profile Sid Channel Endpoint
+        Assignments Sid
     delete:
       description: Remove an Assignment Item Instance.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
         - Assignments
+        - Channels
+        - Customers
+        - Endpoints
+        - Profiles
+      summary: >-
+        Delete Customer Profiles Customer Profile Sid Channel Endpoint
+        Assignments Sid
   /v1/CustomerProfiles/{CustomerProfileSid}/EntityAssignments:
     description: 'TODO: Resource-level docs'
     post:
       description: Create a new Assigned Item.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
         - Assignments
-        - Entity
+        - Customers
+        - Entities
+        - Profiles
+      summary: Create Customer Profiles Customer Profile Sid Entity Assignments
     get:
       description: Retrieve a list of all Assigned Items for an account.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
         - Assignments
-        - Entity
+        - Customers
+        - Entities
+        - Profiles
+      summary: Retrieve Customer Profiles Customer Profile Sid Entity Assignments
   /v1/CustomerProfiles/{CustomerProfileSid}/EntityAssignments/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: Fetch specific Assigned Item Instance.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
         - Assignments
-        - Entity
+        - Customers
+        - Entities
+        - Profiles
+      summary: Retrieve Customer Profiles Customer Profile Sid Entity Assignments Sid
     delete:
       description: Remove an Assignment Item Instance.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
         - Assignments
-        - Entity
+        - Customers
+        - Entities
+        - Profiles
+      summary: Delete Customer Profiles Customer Profile Sid Entity Assignments Sid
   /v1/CustomerProfiles/{CustomerProfileSid}/Evaluations:
     description: 'TODO: Resource-level docs'
     post:
       description: Create a new Evaluation
       tags:
-        - Compliance
-        - Inquiries
         - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
         - Evaluations
+        - Profiles
+      summary: Create Customer Profiles Customer Profile Sid Evaluations
     get:
       description: >-
         Retrieve a list of Evaluations associated to the customer_profile
         resource.
       tags:
-        - Compliance
-        - Inquiries
         - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
         - Evaluations
+        - Profiles
+      summary: Retrieve Customer Profiles Customer Profile Sid Evaluations
   /v1/CustomerProfiles/{CustomerProfileSid}/Evaluations/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: Fetch specific Evaluation Instance.
       tags:
-        - Compliance
-        - Inquiries
         - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
         - Evaluations
+        - Profiles
+      summary: Retrieve Customer Profiles Customer Profile Sid Evaluations Sid
   /v1/EndUsers:
     description: 'TODO: Resource-level docs'
     post:
       description: Create a new End User.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
-        - Evaluations
-        - End
         - Users
+      summary: Create End Users
     get:
       description: Retrieve a list of all End User for an account.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
-        - Evaluations
-        - End
         - Users
+      summary: Retrieve End Users
   /v1/EndUsers/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: Fetch specific End User Instance.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
-        - Evaluations
-        - End
         - Users
+      summary: Retrieve End Users Sid
     post:
       description: Update an existing End User.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
-        - Evaluations
-        - End
         - Users
+      summary: Create End Users Sid
     delete:
       description: Delete a specific End User.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
-        - Evaluations
-        - End
         - Users
+      summary: Delete End Users Sid
   /v1/EndUserTypes:
     description: 'TODO: Resource-level docs'
     get:
       description: Retrieve a list of all End-User Types.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
         - Types
+        - Users
+      summary: Retrieve End User Types
   /v1/EndUserTypes/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: Fetch a specific End-User Type Instance.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
         - Types
+        - Users
+      summary: Retrieve End User Types Sid
   /v1/Policies:
     description: 'TODO: Resource-level docs'
     get:
       description: Retrieve a list of all Policys.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
         - Policies
+      summary: Retrieve Policies
   /v1/Policies/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: Fetch specific Policy Instance.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
         - Policies
+      summary: Retrieve Policies Sid
   /v1/SupportingDocuments:
     description: 'TODO: Resource-level docs'
     post:
       description: Create a new Supporting Document.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
         - Documents
+        - Supporting
+      summary: Create Supporting Documents
     get:
       description: Retrieve a list of all Supporting Document for an account.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
         - Documents
+        - Supporting
+      summary: Retrieve Supporting Documents
   /v1/SupportingDocuments/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: Fetch specific Supporting Document Instance.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
         - Documents
+        - Supporting
+      summary: Retrieve Supporting Documents Sid
     post:
       description: Update an existing Supporting Document.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
         - Documents
+        - Supporting
+      summary: Create Supporting Documents Sid
     delete:
       description: Delete a specific Supporting Document.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
         - Documents
+        - Supporting
+      summary: Delete Supporting Documents Sid
   /v1/SupportingDocumentTypes:
     description: 'TODO: Resource-level docs'
     get:
       description: Retrieve a list of all Supporting Document Types.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
         - Documents
-        - Document
+        - Supporting
+        - Types
+      summary: Retrieve Supporting Document Types
   /v1/SupportingDocumentTypes/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: Fetch a specific Supporting Document Type Instance.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
         - Documents
-        - Document
+        - Supporting
+        - Types
+      summary: Retrieve Supporting Document Types Sid
   /v1/TrustProducts:
     description: 'TODO: Resource-level docs'
     post:
       description: Create a new Customer-Profile.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
-        - Documents
-        - Document
-        - Trust
         - Products
+        - Trust
+      summary: Create Trust Products
     get:
       description: Retrieve a list of all Customer-Profiles for an account.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
-        - Documents
-        - Document
-        - Trust
         - Products
+        - Trust
+      summary: Retrieve Trust Products
   /v1/TrustProducts/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: Fetch a specific Customer-Profile instance.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
-        - Documents
-        - Document
-        - Trust
         - Products
+        - Trust
+      summary: Retrieve Trust Products Sid
     post:
       description: Updates a Customer-Profile in an account.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
-        - Documents
-        - Document
-        - Trust
         - Products
+        - Trust
+      summary: Create Trust Products Sid
     delete:
       description: Delete a specific Customer-Profile.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
-        - Documents
-        - Document
-        - Trust
         - Products
+        - Trust
+      summary: Delete Trust Products Sid
   /v1/TrustProducts/{TrustProductSid}/ChannelEndpointAssignments:
     description: 'TODO: Resource-level docs'
     post:
       description: Create a new Assigned Item.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
         - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
-        - Documents
-        - Document
-        - Trust
+        - Channels
+        - Endpoints
         - Products
-        - Product
+        - Trust
+      summary: Create Trust Products Trust Product Sid Channel Endpoint Assignments
     get:
       description: Retrieve a list of all Assigned Items for an account.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
         - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
-        - Documents
-        - Document
-        - Trust
+        - Channels
+        - Endpoints
         - Products
-        - Product
+        - Trust
+      summary: Retrieve Trust Products Trust Product Sid Channel Endpoint Assignments
   /v1/TrustProducts/{TrustProductSid}/ChannelEndpointAssignments/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: Fetch specific Assigned Item Instance.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
         - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
-        - Documents
-        - Document
-        - Trust
+        - Channels
+        - Endpoints
         - Products
-        - Product
+        - Trust
+      summary: >-
+        Retrieve Trust Products Trust Product Sid Channel Endpoint Assignments
+        Sid
     delete:
       description: Remove an Assignment Item Instance.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
         - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
-        - Documents
-        - Document
-        - Trust
+        - Channels
+        - Endpoints
         - Products
-        - Product
+        - Trust
+      summary: Delete Trust Products Trust Product Sid Channel Endpoint Assignments Sid
   /v1/TrustProducts/{TrustProductSid}/EntityAssignments:
     description: 'TODO: Resource-level docs'
     post:
       description: Create a new Assigned Item.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
         - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
-        - Documents
-        - Document
-        - Trust
+        - Entities
         - Products
-        - Product
+        - Trust
+      summary: Create Trust Products Trust Product Sid Entity Assignments
     get:
       description: Retrieve a list of all Assigned Items for an account.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
         - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
-        - Documents
-        - Document
-        - Trust
+        - Entities
         - Products
-        - Product
+        - Trust
+      summary: Retrieve Trust Products Trust Product Sid Entity Assignments
   /v1/TrustProducts/{TrustProductSid}/EntityAssignments/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: Fetch specific Assigned Item Instance.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
         - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
-        - Documents
-        - Document
-        - Trust
+        - Entities
         - Products
-        - Product
+        - Trust
+      summary: Retrieve Trust Products Trust Product Sid Entity Assignments Sid
     delete:
       description: Remove an Assignment Item Instance.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
         - Assignments
-        - Entity
-        - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
-        - Documents
-        - Document
-        - Trust
+        - Entities
         - Products
-        - Product
+        - Trust
+      summary: Delete Trust Products Trust Product Sid Entity Assignments Sid
   /v1/TrustProducts/{TrustProductSid}/Evaluations:
     description: 'TODO: Resource-level docs'
     post:
       description: Create a new Evaluation
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
         - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
-        - Documents
-        - Document
-        - Trust
         - Products
-        - Product
+        - Trust
+      summary: Create Trust Products Trust Product Sid Evaluations
     get:
       description: Retrieve a list of Evaluations associated to the trust_product resource.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
         - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
-        - Documents
-        - Document
-        - Trust
         - Products
-        - Product
+        - Trust
+      summary: Retrieve Trust Products Trust Product Sid Evaluations
   /v1/TrustProducts/{TrustProductSid}/Evaluations/{Sid}:
     description: 'TODO: Resource-level docs'
     get:
       description: Fetch specific Evaluation Instance.
       tags:
-        - Compliance
-        - Inquiries
-        - Customers
-        - Initialize
-        - Customer
-        - Id
-        - Tollfree
-        - Profiles
-        - Sid
-        - Profile
-        - Channel
-        - Endpoint
-        - Assignments
-        - Entity
         - Evaluations
-        - End
-        - Users
-        - User
-        - Types
-        - Policies
-        - Supporting
-        - Documents
-        - Document
-        - Trust
         - Products
-        - Product
+        - Trust
+      summary: Retrieve Trust Products Trust Product Sid Evaluations Sid
 tags:
   - name: TrusthubV1ComplianceInquiries
   - name: TrusthubV1ComplianceTollfreeInquiries
