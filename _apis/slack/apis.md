@@ -25,15 +25,10 @@ apis:
       - type: Documentation
         url: https://api.slack.com/docs
       - type: OpenAPI
-        url: >-
-          https://raw.githubusercontent.com/slackapi/slack-api-specs/master/web-api/slack_web_openapi_v2.json
+        url: properties/slack-web-openapi-original.yml
     contact:
       - FN: Support
         url: https://api.slack.com/support
-    overlays:
-      - type: APIs.io Search
-        url: >-
-          overlays/https://raw.githubusercontent.com/slackapi/slack-api-specs/master/web-api/slack_web_openapi_v2.json-openapi-search.yml
     aid: slack:slack-web-api
 common:
   - type: GettingStarted
