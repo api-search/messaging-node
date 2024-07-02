@@ -42,6 +42,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/accounts-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/iam/api/account
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/iam/api/account
+      - type: OpenAPI
+        url: properties/accounts-openapi-original.yml
   - aid: twilio:twilio-assistant-api
     name: Twilio Assistant API
     description: >-
@@ -74,6 +79,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/assistant-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/blog/what-is-intelligent-virtual-assistant
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/blog/what-is-intelligent-virtual-assistant
+      - type: OpenAPI
+        url: properties/assistant-openapi-original.yml
   - aid: twilio:twilio-autopilot-api
     name: Twilio Autopilot API
     description: Needs description.
@@ -84,6 +94,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/autopilot-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/autopilot-openapi-original.yml
   - aid: twilio:twilio-bulk-exports-api
     name: Twilio Bulk Exports API
     description: >-
@@ -109,6 +124,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/bulk-exports-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/usage/bulkexport
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/bulk-exports-openapi-original.yml
   - aid: twilio:twilio-content-api
     name: Twilio Content API
     description: >-
@@ -128,6 +148,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/content-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/content
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/content-openapi-original.yml
   - aid: twilio:twilio-conversations-api
     name: Twilio Conversations API
     description: >-
@@ -156,6 +181,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/conversations-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/conversations
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/conversations-openapi-original.yml
   - aid: twilio:twilio-events-api
     name: Twilio Events API
     description: >-
@@ -178,6 +208,11 @@ apis:
         url: overlays/events-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/events-openapi-api-evangelist-ratings.yml
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/events-openapi-original.yml
   - aid: twilio:twilio-frontline-api
     name: Twilio Frontline API
     description: Needs description.
@@ -187,6 +222,11 @@ apis:
         url: overlays/frontline-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/frontline-openapi-api-evangelist-ratings.yml
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/frontline-openapi-original.yml
   - aid: twilio:twilio-insights-api
     name: Twilio Insights API
     description: >-
@@ -213,6 +253,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/insights-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/voice/voice-insights
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/insights-openapi-original.yml
   - aid: twilio:twilio-intelligence-api
     name: Twilio Intelligence API
     description: >-
@@ -232,6 +277,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/intelligence-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/voice/intelligence/api
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/intelligence-openapi-original.yml
   - aid: twilio:twilio-ip-messaging-api
     name: Twilio IP Messaging API
     description: Needs description.
@@ -241,6 +291,11 @@ apis:
         url: overlays/ip-message-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/ip-message-openapi-api-evangelist-ratings.yml
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/ip-message-openapi-original.yml
   - aid: twilio:twilio-marketplace-api
     name: Twilio Marketplace API
     description: >-
@@ -259,6 +314,11 @@ apis:
         url: overlays/marketplace-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/marketplace-openapi-api-evangelist-ratings.yml
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/add-ons/marketplace
+      - type: OpenAPI
+        url: properties/marketplace-openapi-original.yml
   - aid: twilio:twilio-media-api
     name: Twilio Media API
     description: >-
@@ -278,6 +338,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/media-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/messaging/api/media-resource
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/media
+      - type: OpenAPI
+        url: properties/media-openapi-original.yml
   - aid: twilio:twilio-messaging-api
     name: Twilio Messaging API
     description: >-
@@ -314,6 +379,13 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/messaging-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/messaging/api
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/en-us/messaging
+      - type: Pricing
+        url: https://www.twilio.com/en-us/sms/pricing/us
+      - type: OpenAPI
+        url: properties/messaging-openapi-original.yml
   - aid: twilio:twilio-microvisor-api
     name: Twilio Microvisor API
     description: >-
@@ -333,6 +405,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/microvisor-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/iot/microvisor/api
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/microvisor-openapi-original.yml
   - aid: twilio:twilio-monitor-api
     name: Twilio Monitor API
     description: >-
@@ -348,6 +425,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/monitor-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/usage/monitor-alert
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/monitor-openapi-original.yml
   - aid: twilio:twilio-notify-api
     name: Twilio Notify API
     description: >-
@@ -365,6 +447,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/notify-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/notify/api
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/notify-openapi-original.yml
   - aid: twilio:twilio-numbers-api
     name: Twilio Numbers API
     description: >-
@@ -400,6 +487,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/numbers-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/phone-numbers
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/numbers-openapi-original.yml
   - aid: twilio:twilio-pricing-api
     name: Twilio Pricing API
     description: >-
@@ -417,6 +509,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/pricing-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/voice/pricing
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/pricing-openapi-original.yml
   - aid: twilio:twilio-proxy-api
     name: Twilio Proxy API
     description: >-
@@ -437,6 +534,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/proxy-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/proxy/api
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/proxy-openapi-original.yml
   - aid: twilio:twilio-routes-api
     name: Twilio Routes API
     description: Needs description.
@@ -446,6 +548,11 @@ apis:
         url: overlays/routes-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/routes-openapi-api-evangelist-ratings.yml
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/routes-openapi-original.yml
   - aid: twilio:twilio-serverless-api
     name: Twilio Serverless API
     description: >-
@@ -469,6 +576,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/serverless-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/serverless/api
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/serverless-openapi-original.yml
   - aid: twilio:twilio-studio-api
     name: Twilio Studio API
     description: >-
@@ -491,6 +603,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/studio-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/studio/rest-api/v2
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/studio-openapi-original.yml
   - aid: twilio:twilio-super-sim-api
     name: Twilio Super SIM API
     description: >-
@@ -521,6 +638,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/super-sim-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/iot/supersim/api
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/super-sim-openapi-original.yml
   - aid: twilio:twilio-sync-api
     name: Twilio Sync API
     description: >-
@@ -546,6 +668,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/sync-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/sync/api
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/sync-openapi-original.yml
   - aid: twilio:twilio-task-router-api
     name: Twilio Task Router API
     description: >-
@@ -570,6 +697,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/task-router-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/taskrouter/api
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/task-router-openapi-original.yml
   - aid: twilio:twilio-trunking-api
     name: Twilio Elastic SIP Trunking API
     description: >-
@@ -594,6 +726,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/trunking-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/sip-trunking/api
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/trunking-openapi-original.yml
   - aid: twilio:twilio-trust-hub-api
     name: Twilio Trust Hub API
     description: >-
@@ -627,6 +764,11 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/trust-hub-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/trust-hub
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/trust-hub-openapi-original.yml
   - aid: twilio:twilio-verify-api
     name: Twilio Verify API
     description: >-
@@ -666,6 +808,13 @@ apis:
         url: overlays/verify-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/verify-openapi-api-evangelist-ratings.yml
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/en-us/trusted-activation/verify
+      - type: Pricing
+        url: https://www.twilio.com/en-us/verify/pricing
+      - type: OpenAPI
+        url: properties/verify-openapi-original.yml
   - aid: twilio:twilio-video-api
     name: Twilio Video API
     description: >-
@@ -694,6 +843,11 @@ apis:
         url: overlays/video-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/video-openapi-api-evangelist-ratings.yml
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/video
+      - type: OpenAPI
+        url: properties/video-openapi-original.yml
   - aid: twilio:twilio-voice-api
     name: Twilio Voice API
     description: >-
@@ -730,6 +884,11 @@ apis:
         url: overlays/voice-openapi-search.yml
       - type: API Evangelist Ratings
         url: overlays/voice-openapi-api-evangelist-ratings.yml
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/en-us/voice
+      - type: OpenAPI
+        url: properties/voice-openapi-original.yml
   - aid: twilio:twilio-wireless-api
     name: Twilio Wireless API
     description: >-
@@ -750,6 +909,30 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/wireless-openapi-api-evangelist-ratings.yml
     humanURL: https://www.twilio.com/docs/iot/wireless/api
+    properties:
+      - type: Documentation
+        url: https://www.twilio.com/docs/
+      - type: OpenAPI
+        url: properties/wireless-openapi-original.yml
 maintainers:
   - FN: APIs.json
     email: info@apis.io
+common:
+  - type: Sign Up
+    url: https://www.twilio.com/try-twilio
+  - type: About
+    url: https://www.twilio.com/en-us/company
+  - type: Support
+    url: https://support.twilio.com/
+  - type: SDKs
+    url: https://www.twilio.com/docs/libraries
+  - type: Status
+    url: https://status.twilio.com/
+  - type: Change Log
+    url: https://www.twilio.com/en-us/changelog
+  - type: Blog
+    url: https://www.twilio.com/blog
+  - type: Privacy
+    url: https://www.twilio.com/en-us/legal/privacy
+  - type: Terms of Service
+    url: https://www.twilio.com/en-us/legal/tos
