@@ -6,8 +6,8 @@ description: >-
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/mailchimp.yml
 created: 2023/11/23
-modified: 2023/11/23
-specificationVersion: '0.16'
+modified: '2024-07-03'
+specificationVersion: '0.18'
 tags: []
 apis:
   - name: 'Mailchimp Marketing API '
@@ -19,7 +19,149 @@ apis:
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://mailchimp.com/developer/marketing/
     baseURL: https://api.example.com
-    tags: []
+    tags:
+      - About
+      - Abuse
+      - Accounts
+      - Actions
+      - Activities
+      - Activity
+      - Ad
+      - Ads
+      - Advice
+      - Answers
+      - Applications
+      - Archive
+      - Authorized
+      - Automated
+      - Automation
+      - Automations
+      - Batches
+      - Campaigns
+      - Cancels
+      - Carts
+      - Categories
+      - Chatter
+      - Checklist
+      - Child
+      - Chimp
+      - Click
+      - Clicked
+      - Clients
+      - Code
+      - Codes
+      - Connected
+      - Contacts
+      - Content
+      - Conversations
+      - Customers
+      - Customize
+      - Data
+      - Default
+      - Details
+      - Domains
+      - Ecommerce
+      - Eep
+      - Eepurl
+      - Emails
+      - Events
+      - Exports
+      - Facebook
+      - Feedback
+      - Feeds
+      - Fields
+      - Files
+      - Folders
+      - Forms
+      - Goal
+      - Goals
+      - Growth
+      - Hash
+      - History
+      - Images
+      - Information
+      - Installations
+      - Interest
+      - Interests
+      - Items
+      - Journeys
+      - Landing
+      - Latest
+      - Line
+      - Lines
+      - Links
+      - Locations
+      - Managers
+      - Members
+      - Merge
+      - Messages
+      - Months
+      - Names
+      - Notes
+      - Opened
+      - Operation
+      - Orders
+      - Outreach
+      - Page
+      - Pages
+      - Pause
+      - Performance
+      - Permanent
+      - Pings
+      - Products
+      - Promo
+      - Publish
+      - Questions
+      - Queues
+      - Recent
+      - Recipients
+      - Removed
+      - Replicate
+      - Reporting
+      - Reports
+      - Resend
+      - Resources
+      - Resume
+      - Root
+      - Rss
+      - Rules
+      - Schedules
+      - Scripts
+      - Search
+      - Segments
+      - Send
+      - Sending
+      - Sent
+      - Sets
+      - Settings
+      - Signup
+      - Sites
+      - Statistics
+      - Status
+      - Steps
+      - Store
+      - Stored
+      - Stores
+      - Subscribe
+      - Subscribers
+      - Survey
+      - Surveys
+      - Tags
+      - Templates
+      - Tests
+      - Top
+      - Triggers
+      - URL
+      - Unpublish
+      - Unschedule
+      - Unsubscribe
+      - Unsubscribed
+      - Variants
+      - Verified
+      - Verify
+      - View
+      - Webhooks
+      - Workflows
     properties:
       - type: Documentation
         url: https://mailchimp.com/developer/marketing/docs/fundamentals/
@@ -95,4 +237,5 @@ overlays:
   - type: API Evangelist Ratings
     url: overlays/apis-io-search.yml
 aid: mailchimp
+
 ---
