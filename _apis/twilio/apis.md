@@ -6,7 +6,7 @@ description: >-
   We are a software company that strengthens businesses by unifying their data
   to build insightful paths to customers, so they are smarter with every
   interaction and able to outmaneuver their competition.
-url: https://artisinal.apisjson.org/apis/twilio/apis.yml
+url: https://raw.githubusercontent.com/api-search/messaging/main/_data/discord/overlays/apis-io-search.yml
 created: 2024/04/14
 modified: '2024-07-03'
 tags: []

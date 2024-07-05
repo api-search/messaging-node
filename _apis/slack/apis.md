@@ -5,7 +5,7 @@ description: >-
   created by Slack Technologies and currently owned by Salesforce. While
   initially developed for professional and organizational communications, it has
   also been adopted as a community platform.
-url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/slack.yml
+url: https://raw.githubusercontent.com/api-search/messaging/main/_apis/slack/apis.md
 created: 2024/04/14
 modified: '2024-07-03'
 specificationVersion: '0.18'
