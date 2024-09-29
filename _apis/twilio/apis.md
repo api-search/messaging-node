@@ -1,4 +1,3 @@
----
 specificationVersion: '0.18'
 aid: twilio
 name: Twilio
@@ -6,7 +5,8 @@ description: >-
   We are a software company that strengthens businesses by unifying their data
   to build insightful paths to customers, so they are smarter with every
   interaction and able to outmaneuver their competition.
-url: https://raw.githubusercontent.com/api-search/messaging/main/_data/discord/overlays/apis-io-search.yml
+url: >-
+  https://raw.githubusercontent.com/api-search/messaging/main/_data/discord/overlays/apis-io-search.yml
 created: 2024/04/14
 modified: '2024-07-03'
 tags: []
@@ -703,7 +703,7 @@ apis:
         url: https://www.twilio.com/docs/
       - type: OpenAPI
         url: properties/task-router-openapi-original.yml
-  - aid: twilio:twilio-trunking-api
+  - aid: twilio:twilio-elastic-sip-trunking-api
     name: Twilio Elastic SIP Trunking API
     description: >-
       Twilio Elastic SIP Trunking is a cloud-based solution that provides
@@ -937,5 +937,3 @@ common:
     url: https://www.twilio.com/en-us/legal/privacy
   - type: Terms of Service
     url: https://www.twilio.com/en-us/legal/tos
-
----

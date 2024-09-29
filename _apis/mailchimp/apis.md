@@ -1,10 +1,10 @@
----
 name: Mailchimp
 description: >-
   Mailchimp’s developer tools provide everything you need to integrate your data
   with intelligent marketing tools and event-driven transactional email.
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-url: https://raw.githubusercontent.com/api-search/messaging/main/_apis/mailchimp/apis.md
+url: >-
+  https://raw.githubusercontent.com/api-search/messaging/main/_apis/mailchimp/apis.md
 created: 2023/11/23
 modified: '2024-07-03'
 specificationVersion: '0.18'
@@ -237,5 +237,3 @@ overlays:
   - type: API Evangelist Ratings
     url: overlays/apis-io-search.yml
 aid: mailchimp
-
----
