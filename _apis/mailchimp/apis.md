@@ -1,3 +1,4 @@
+---
 name: Mailchimp
 description: >-
   Mailchimp’s developer tools provide everything you need to integrate your data
@@ -237,3 +238,4 @@ overlays:
   - type: API Evangelist Ratings
     url: overlays/apis-io-search.yml
 aid: mailchimp
+---

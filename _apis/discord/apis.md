@@ -1,3 +1,4 @@
+---
 name: Postmark
 description: >-
   Postmark helps deliver and track application email. In a nutshell, the service
@@ -31,3 +32,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 aid: postmark
+---

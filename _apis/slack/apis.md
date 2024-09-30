@@ -1,3 +1,4 @@
+---
 name: Slack
 description: >-
   Slack is a cloud-based freemium cross-platform instant messaging service
@@ -30,3 +31,4 @@ maintainers:
     url: https://apievangelisgt.com
     email: info@apievangelist.com
 aid: slack
+---
